@@ -1,2 +1,2 @@
-# Portfolio
-My portfolio, written in Node.js, Next.js, and TypeScript.
+# Personal Website
+My personal website, written in Next.js, and TypeScript.
