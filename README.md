@@ -1,2 +1,3 @@
 # Personal Website
-My personal website, written in Next.js, and TypeScript.
+
+This is the repository for my personal website, written in Next.js, and TypeScript.
