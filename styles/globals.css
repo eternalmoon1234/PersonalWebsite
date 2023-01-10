@@ -6,6 +6,7 @@
 @layer base {
   :root {
     --color-primary: #001733;
+    --color-primary-light: #5fa8ff;
   }
 
   html,
