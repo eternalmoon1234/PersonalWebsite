@@ -5,6 +5,7 @@ import { Hero } from "../components/Hero";
 import { Projects } from "../components/Projects";
 import { ProjectEntity } from "../entities/ProjectEntity";
 import { Footer } from "../components/Footer";
+import { About } from "../components/About";
 
 const projects: ProjectEntity[] = [
   {
@@ -36,38 +37,7 @@ const IndexPage: NextPage = () => (
     <div className="p-5">
       <Navbar />
       <Hero />
-      <section className="bg-gray-200 py-8">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-4 text-center text-gray-800">
-            About
-          </h2>
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-1/2 px-4 mb-8">
-              <img alt="Profile" className="w-full rounded-full shadow-lg" />
-            </div>
-            <div className="w-1/2 px-4 mb-8">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                ornare magna eros, eu pellentesque tortor vestibulum ut.
-                Maecenas non massa sem. Etiam finibus odio quis feugiat
-                facilisis.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                ornare magna eros, eu pellentesque tortor vestibulum ut.
-                Maecenas non massa sem. Etiam finibus odio quis feugiat
-                facilisis.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                ornare magna eros, eu pellentesque tortor vestibulum ut.
-                Maecenas non massa sem. Etiam finibus odio quis feugiat
-                facilisis.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <About />
       <Projects projects={projects} />
       <Footer />
     </div>

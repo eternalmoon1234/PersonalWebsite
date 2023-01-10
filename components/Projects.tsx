@@ -16,7 +16,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="w-1/2 md:w-1/2 lg:w-1/2 px-4 mb-8"
+              className="w-full md:w-1/2 lg:w-1/2 px-4 mb-8"
             >
               <div className="bg-white shadow-md rounded-lg overflow-hidden">
                 <a
