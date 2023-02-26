@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ["Rubik", "sans-serif"],
+        syne: ["Syne", "sans-serif"],
       },
       colors: {
         primary: {

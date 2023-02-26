@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Syne:wght@400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +6,7 @@
 @layer base {
   :root {
     --color-primary: #001733;
-    --color-primary-light: #5fa8ff;
+    --color-primary-light: #74b3ff;
   }
 
   html,
@@ -22,40 +22,34 @@
   h1 {
     @apply text-5xl;
     @apply font-bold;
-    @apply font-rubik;
     @apply text-white;
   }
 
   h2 {
     @apply text-4xl;
     @apply font-bold;
-    @apply font-rubik;
     @apply text-white;
   }
 
   h3 {
     @apply text-2xl;
     @apply font-bold;
-    @apply font-rubik;
     @apply text-white;
   }
 
   h4 {
     @apply text-xl;
     @apply font-bold;
-    @apply font-rubik;
     @apply text-white;
   }
 
   p {
     @apply text-base;
-    @apply font-rubik;
     @apply text-white;
   }
 
   small {
     @apply text-sm;
-    @apply font-rubik;
     @apply text-white;
   }
 }
