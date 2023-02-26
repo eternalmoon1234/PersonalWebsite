@@ -6,7 +6,7 @@ import {
   AiFillMail as MailButton,
 } from "react-icons/ai";
 import { NavbarLink } from "./NavbarLink";
-import { linkedinUrl, githubUrl, youtubeUrl, mailUrl } from "@/utils/siteInfo";
+import { linkedinUrl, githubUrl, youtubeUrl, mailUrl } from "@/utils/links";
 
 export const Navbar = () => {
   return (
@@ -42,4 +42,3 @@ export const Navbar = () => {
     </nav>
   );
 };
-
