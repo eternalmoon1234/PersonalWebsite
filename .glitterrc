@@ -1,0 +1,12 @@
+{
+    "custom_tasks": [
+        {
+            "name": "format",
+            "execute": [
+                "prettier --write ."
+            ]
+        }
+    ],
+    "hooks": ["format"],
+    "commit_message": "$1: $2: $3+"
+}
