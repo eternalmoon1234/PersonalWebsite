@@ -1,11 +1,11 @@
 import { NextPage } from "next";
-import { Layout } from "../components/Layout";
-import { Navbar } from "../components/Navbar";
-import { Hero } from "../components/Hero";
-import { Projects } from "../components/Projects";
-import { ProjectEntity } from "../entities/ProjectEntity";
-import { Footer } from "../components/Footer";
-import { About } from "../components/About";
+import { Layout } from "@/components/Layout";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { Projects } from "@/components/Projects";
+import { ProjectEntity } from "@/entities/ProjectEntity";
+import { Footer } from "@/components/Footer";
+import { About } from "@/components/About";
 
 const projects: ProjectEntity[] = [
   {

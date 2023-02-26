@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectEntity } from "../entities/ProjectEntity";
+import { ProjectEntity } from "@/entities/ProjectEntity";
 
 interface ProjectsProps {
   projects: ProjectEntity[];
