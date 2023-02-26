@@ -5,6 +5,7 @@ import {
   AiFillGithub as GithubButton,
   AiFillMail as MailButton,
 } from "react-icons/ai";
+import { NavbarLink } from "./NavbarLink";
 import { linkedinUrl, githubUrl, youtubeUrl, mailUrl } from "@/utils/siteInfo";
 
 export const Navbar = () => {
@@ -42,12 +43,3 @@ export const Navbar = () => {
   );
 };
 
-const NavbarLink = ({ href, title }: { href: string; title: string }) => {
-  return (
-    <Link href={href}>
-      <p className="hover:cursor-pointer text-xl text-primary-light font-syne">
-        ./{title}
-      </p>
-    </Link>
-  );
-};
