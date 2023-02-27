@@ -20,7 +20,8 @@ module.exports = {
           light: "var(--color-primary-light)",
           extraLight: "var(--color-primary-extra-light)",
         },
-        foyer: "var(--color-foyer)",
+        foyerPurple: "var(--color-foyerPurple)",
+        tripleyBlue: "var(--color-tripleyBlue)",
       },
     },
     screens: {
