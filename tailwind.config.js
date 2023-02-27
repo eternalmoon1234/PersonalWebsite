@@ -18,6 +18,7 @@ module.exports = {
         primary: {
           DEFAULT: "var(--color-primary)",
           light: "var(--color-primary-light)",
+          extraLight: "var(--color-primary-extra-light)",
         },
       },
     },

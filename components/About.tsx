@@ -1,12 +1,10 @@
 export const About = () => {
   return (
     <section className="rounded-lg">
-      <h2 className="text-2xl font-bold mb-2">About Me</h2>
+      <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">about</h2>
       <p className="mb-4">
-        Hi there! I'm a software engineer with a passion for building elegant
-        and efficient solutions to complex problems. I have a strong foundation
-        in computer science principles and a track record of delivering
-        high-quality software on time and within budget.
+        I'm Gautam, a high school freshman. I enjoy writing open source
+        software, and building meaningful products and solutions.
       </p>
       <h3 className="text-xl font-bold mb-2">What I Do</h3>
       <p className="mb-4">
