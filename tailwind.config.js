@@ -20,7 +20,7 @@ module.exports = {
           light: "var(--color-primary-light)",
           extraLight: "var(--color-primary-extra-light)",
         },
-        foyer: "var(--color-foyer)"
+        foyer: "var(--color-foyer)",
       },
     },
     screens: {

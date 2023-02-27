@@ -6,6 +6,7 @@ import { Projects } from "@/components/Projects";
 import { ProjectEntity } from "@/entities/ProjectEntity";
 import { Footer } from "@/components/Footer";
 import { About } from "@/components/About";
+import { Experience } from "@/components/Experience";
 
 const projects: ProjectEntity[] = [
   {
@@ -42,8 +43,9 @@ const IndexPage: NextPage = () => (
       >
         <Hero />
         <About />
-        <Projects projects={projects} />
-        <Footer />
+        <Experience />
+        {/* <Projects projects={projects} />
+        <Footer /> */}
       </section>
     </div>
   </Layout>

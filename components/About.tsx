@@ -4,11 +4,11 @@ export const About = () => {
   return (
     <section className="rounded-lg">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">about</h2>
-      <p className="mb-4">
+      <p className="mb-5">
         I'm Gautam, a high school freshman. I enjoy writing open source
         software, and building meaningful products and solutions.
       </p>
-      <p className="mb-4">
+      <p className="mb-5">
         Currently, I work as a product engineer at{" "}
         <a href={foyerUrl} target="_blank">
           <span className="text-foyer font-beatriceSemibold">Foyer</span>
@@ -16,7 +16,7 @@ export const About = () => {
         , helping maximize the performance of engineering teams.
       </p>
 
-      <p className="mb-4">
+      <p className="mb-5">
         I'm also building{" "}
         <a href={tripleyUrl} target="_blank">
           <span className="text-[#3290FF] font-beatriceSemibold">Tripley</span>
@@ -25,7 +25,7 @@ export const About = () => {
         effectively.
       </p>
 
-      <p className="mb-4">
+      <p className="mb-5">
         Check out my work, and my GitHub{" "}
         <a href={githubUrl} target="_blank">
           <span className="bg-primary-light text-primary p-1 rounded-lg leading-loose">
