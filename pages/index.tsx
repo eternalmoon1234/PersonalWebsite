@@ -34,18 +34,18 @@ const projects: ProjectEntity[] = [
 
 const IndexPage: NextPage = () => (
   <Layout>
-      <Navbar />
-        <div className="mx-auto flex w-full max-w-xl flex-col justify-center py-16">
-          <section
-            className="
+    <Navbar />
+    <div className="mx-auto flex w-full max-w-xl flex-col justify-center py-16">
+      <section
+        className="
               mt-16 w-full self-start text-dark-900"
-          >
-            <Hero />
-            <About />
-            <Projects projects={projects} />
-            <Footer />
-          </section>
-        </div>
+      >
+        <Hero />
+        <About />
+        <Projects projects={projects} />
+        <Footer />
+      </section>
+    </div>
   </Layout>
 );
 

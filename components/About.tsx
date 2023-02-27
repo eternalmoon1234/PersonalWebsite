@@ -6,38 +6,18 @@ export const About = () => {
         I'm Gautam, a high school freshman. I enjoy writing open source
         software, and building meaningful products and solutions.
       </p>
-      <h3 className="text-xl font-bold mb-2">What I Do</h3>
       <p className="mb-4">
-        As a software engineer, I specialize in developing web applications
-        using modern technologies such as React.js, TypeScript, and TailwindCSS.
-        I have experience working on both front-end and back-end projects, and I
-        am comfortable with the full software development life cycle from
-        ideation to deployment.
+      Currently, I work as a product engineer at <a href="https://foyer.work" target="_blank"><span className="text-[#AD58FF] font-beatriceSemibold">Foyer</span></a>, helping maximize the performance of engineering teams. 
       </p>
+      
       <p className="mb-4">
-        In my current role, I am responsible for designing and implementing new
-        features for our platform, as well as maintaining and improving existing
-        functionality. I also enjoy collaborating with cross-functional teams
-        and contributing to code reviews to ensure that our software is of the
-        highest quality.
+      I'm also building <a href="https://tripley.app" target="_blank"><span className="text-[#3290FF] font-beatriceSemibold">Tripley</span></a>, a mobile app that enables travelers to plan and manage their trips effectively.
       </p>
-      <h3 className="text-xl font-bold mb-2">Technologies</h3>
+
       <p className="mb-4">
-        Some of the technologies that I have experience with include:
+      Check out my work, and my GitHub <a href="https://github.com/eternalmoon1234" target="_blank"><span className="bg-[#74B3FF] text-primary p-1 rounded-lg leading-loose">@eternalmoon1234</span></a>. Reach out to me at <span className="text-[#74B3FF] underline">gautamparanjape8@gmail.com</span> 
       </p>
-      <ul className="list-disc pl-4 mb-4">
-        <li>Languages: JavaScript, TypeScript, Python, Java</li>
-        <li>Web Frameworks: React.js, Angular, Vue.js, Express.js</li>
-        <li>CSS Frameworks: TailwindCSS, Bootstrap, Materialize</li>
-        <li>Database: MySQL, MongoDB, PostgreSQL</li>
-        <li>Cloud Platforms: AWS, Azure, GCP</li>
-        <li>Tools: Git, JIRA, Trello, Visual Studio Code</li>
-      </ul>
-      <p>
-        I am always eager to learn new technologies and expand my skill set, and
-        I am confident in my ability to quickly pick up new programming
-        languages and frameworks as needed.
-      </p>
+      
     </section>
   );
 };
