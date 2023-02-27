@@ -10,8 +10,8 @@ import { linkedinUrl, githubUrl, youtubeUrl, mailUrl } from "@/utils/links";
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-0 sm:px-5">
-      <div className="mx-auto flex w-full max-w-6xl justify-between">
+    <nav className="flex items-center justify-between">
+      <div className="mx-auto flex w-full max-w-7xl px-5 justify-between">
         <div className="flex items-center space-x-0 text-xs sm:space-x-7 sm:text-lg">
           <Link href="/">
             <h3 className="font-semibold font-syne">

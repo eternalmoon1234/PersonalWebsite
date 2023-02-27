@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section className="rounded-lg px-5 sm:px-10">
+    <section className="rounded-lg">
       <h2 className="text-2xl font-bold mb-2">About Me</h2>
       <p className="mb-4">
         Hi there! I'm a software engineer with a passion for building elegant

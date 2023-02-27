@@ -36,10 +36,12 @@ const IndexPage: NextPage = () => (
   <Layout>
     <div className="p-5">
       <Navbar />
+      <div className="px-44">
       <Hero />
       <About />
       <Projects projects={projects} />
       <Footer />
+      </div>
     </div>
   </Layout>
 );
