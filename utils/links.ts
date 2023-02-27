@@ -6,5 +6,5 @@ export const youtubeUrl: string =
 export const mailUrl: string = "https://google.com";
 
 // Other
-export const foyerLink: string = "https://foyer.work"
-export const tripleyLink: string = "https://tripley.app"
+export const foyerUrl: string = "https://foyer.work";
+export const tripleyUrl: string = "https://tripley.app";

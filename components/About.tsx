@@ -1,4 +1,4 @@
-import { foyerLink, tripleyLink } from "@/utils/links";
+import { foyerUrl, githubUrl, tripleyUrl } from "@/utils/links";
 
 export const About = () => {
   return (
@@ -10,15 +10,15 @@ export const About = () => {
       </p>
       <p className="mb-4">
         Currently, I work as a product engineer at{" "}
-        <a href={foyerLink} target="_blank">
-          <span className="text-[#AD58FF] font-beatriceSemibold">Foyer</span>
+        <a href={foyerUrl} target="_blank">
+          <span className="text-foyer font-beatriceSemibold">Foyer</span>
         </a>
         , helping maximize the performance of engineering teams.
       </p>
 
       <p className="mb-4">
         I'm also building{" "}
-        <a href={tripleyLink} target="_blank">
+        <a href={tripleyUrl} target="_blank">
           <span className="text-[#3290FF] font-beatriceSemibold">Tripley</span>
         </a>
         , a mobile app that enables travelers to plan and manage their trips
@@ -27,13 +27,13 @@ export const About = () => {
 
       <p className="mb-4">
         Check out my work, and my GitHub{" "}
-        <a href="https://github.com/eternalmoon1234" target="_blank">
-          <span className="bg-[#74B3FF] text-primary p-1 rounded-lg leading-loose">
+        <a href={githubUrl} target="_blank">
+          <span className="bg-primary-light text-primary p-1 rounded-lg leading-loose">
             @eternalmoon1234
           </span>
         </a>
         . Reach out to me at{" "}
-        <span className="text-[#74B3FF] underline">
+        <span className="text-primary-light underline">
           gautamparanjape8@gmail.com
         </span>
       </p>
