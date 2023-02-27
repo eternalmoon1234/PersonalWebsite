@@ -1,9 +1,14 @@
 module.exports = {
-  content: ["./pages/*.{ts,tsx}", "./components/*.{ts,tsx}"],
+  content: ["./pages/*.{ts,tsx}", "./components/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
         syne: ["Syne", "sans-serif"],
+        beatrice: ["beatrice"],
+        beatriceLight: ["beatrice-light"],
+        beatriceMedium: ["beatrice-medium"],
+        beatriceSemibold: ["beatrice-semibold"],
+        beatriceBold: ["beatrice-bold"],
       },
       colors: {
         primary: {

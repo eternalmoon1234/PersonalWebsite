@@ -3,6 +3,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import Beatrice font */
+@font-face {
+  font-family: "beatrice";
+  src: url("../public/fonts/Beatrice_Regular.otf");
+}
+
+@font-face {
+  font-family: "beatrice-light";
+  src: url("../public/fonts/Beatrice-Light.otf");
+}
+
+@font-face {
+  font-family: "beatrice-medium";
+  src: url("../public/fonts/Beatrice-Medium.otf");
+}
+
+@font-face {
+  font-family: "beatrice-semibold";
+  src: url("../public/fonts/Beatrice-Semibold.otf");
+}
+
+@font-face {
+  font-family: "beatrice-bold";
+  src: url("../public/fonts/Beatrice-Bold.otf");
+}
+
 @layer base {
   :root {
     --color-primary: #001733;
@@ -23,33 +49,39 @@
     @apply text-5xl;
     @apply font-bold;
     @apply text-white;
+    @apply font-beatrice;
   }
 
   h2 {
     @apply text-4xl;
     @apply font-bold;
     @apply text-white;
+    @apply font-beatrice;
   }
 
   h3 {
     @apply text-2xl;
     @apply font-bold;
     @apply text-white;
+    @apply font-beatrice;
   }
 
   h4 {
     @apply text-xl;
     @apply font-bold;
     @apply text-white;
+    @apply font-beatrice;
   }
 
   p {
     @apply text-base;
     @apply text-white;
+    @apply font-beatrice;
   }
 
   small {
     @apply text-sm;
     @apply text-white;
+    @apply font-beatrice;
   }
 }
