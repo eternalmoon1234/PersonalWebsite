@@ -1,4 +1,6 @@
 import { email, foyerUrl, githubUrl, tripleyUrl } from "@/utils/links";
+import { GitHubButton } from "./GitHubButton";
+import { Link } from "./Link";
 
 export const About = () => {
   return (
@@ -10,32 +12,30 @@ export const About = () => {
       </p>
       <p className="mb-5">
         Currently, I work as a product engineer at{" "}
-        <a href={foyerUrl} target="_blank">
-          <span className="text-foyerPurple font-beatriceSemibold">Foyer</span>
-        </a>
+        <Link
+          type="color"
+          className="text-foyerPurple"
+          href={foyerUrl}
+          displayName="Foyer"
+        />
         , helping maximize the performance of engineering teams.
       </p>
 
       <p className="mb-5">
         I'm also building{" "}
-        <a href={tripleyUrl} target="_blank">
-          <span className="text-[#3290FF] font-beatriceSemibold">Tripley</span>
-        </a>
+        <Link
+          type="color"
+          className="text-tripleyBlue"
+          href={tripleyUrl}
+          displayName="Tripley"
+        />
         , a mobile app that enables travelers to plan and manage their trips
         effectively.
       </p>
 
       <p className="mb-5">
-        Check out my work, and my GitHub{" "}
-        <a href={githubUrl} target="_blank">
-          <span className="bg-primary-light text-primary p-1 rounded-lg leading-loose">
-            @eternalmoon1234
-          </span>
-        </a>
-        . Reach out to me at{" "}
-        <a href={`mailto:${email}`}>
-          <span className="text-primary-light underline">{email}</span>
-        </a>
+        Check out my work, and my GitHub <GitHubButton />. Reach out to me at{" "}
+        <Link type="basic" href={`mailto:${email}`} displayName={email} />
       </p>
     </section>
   );
