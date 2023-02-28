@@ -9,16 +9,37 @@ export const Experience = () => {
       </h2>
       <div className="">
         <div className="flex flex-col space-y-5">
-          <div className="flex">
-    <p className="0 w-8/12">Jan 2023 - present</p>
-          <ExperienceCard title="Product Engineer" organizationColor="foyerPurple" organization="Foyer"  organizationUrl="https://foyer.work" description="Seeing the Merdaugh trial on the news today perked my interest in
-            the case so I watched this DocuSeries tonight…Wow!" skills="Big Data · Firebase · Node.js · React.js · TypeScript"/>
-            </div>
-          <ExperienceCard title="Co-Founder" organizationColor="tripleyBlue" organization="Tripley" organizationUrl="https://tripley.app"  description="Seeing the Merdaugh trial on the news today perked my interest in
-            the case so I watched this DocuSeries tonight…Wow!" skills="TS • Node"/>
-            <ExperienceCard title="Software Engineer" organizationColor="white" organization="neusleep" organizationUrl="https://neusleep.com" description="Seeing the Merdaugh trial on the news today perked my interest in
-            the case so I watched this DocuSeries tonight…Wow!" skills="TS • Node"/>
-          </div>
+            <ExperienceCard
+              title="Product Engineer"
+              organizationColor="foyerPurple"
+              organization="Foyer"
+              organizationUrl="https://foyer.work"
+              description="Seeing the Merdaugh trial on the news today perked my interest in
+            the case so I watched this DocuSeries tonight…Wow!"
+              skills="Big Data · Firebase · Node.js · React.js · TypeScript"
+              dateRange="Jan 2023 - Present"
+            />
+          <ExperienceCard
+            title="Co-Founder"
+            organizationColor="tripleyBlue"
+            organization="Tripley"
+            organizationUrl="https://tripley.app"
+            description="Seeing the Merdaugh trial on the news today perked my interest in
+            the case so I watched this DocuSeries tonight…Wow!"
+            skills="TS • Node"
+            dateRange="May 2022 - Present"
+          />
+          <ExperienceCard
+            title="Software Engineer"
+            organizationColor="white"
+            organization="neusleep"
+            organizationUrl="https://neusleep.com"
+            description="Seeing the Merdaugh trial on the news today perked my interest in
+            the case so I watched this DocuSeries tonight…Wow!"
+            skills="TS • Node"
+            dateRange="Jun 2022 - Oct 2022"
+          />
+        </div>
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ export const About = () => {
       <p className="mb-5">
         Currently, I work as a product engineer at{" "}
         <a href={foyerUrl} target="_blank">
-          <span className="text-foyer font-beatriceSemibold">Foyer</span>
+          <span className="text-foyerPurple font-beatriceSemibold">Foyer</span>
         </a>
         , helping maximize the performance of engineering teams.
       </p>
