@@ -1,4 +1,4 @@
-import { foyerUrl, githubUrl, tripleyUrl } from "@/utils/links";
+import { email, foyerUrl, githubUrl, tripleyUrl } from "@/utils/links";
 
 export const About = () => {
   return (
@@ -33,9 +33,11 @@ export const About = () => {
           </span>
         </a>
         . Reach out to me at{" "}
+        <a href={`mailto:${email}`}>
         <span className="text-primary-light underline">
-          gautamparanjape8@gmail.com
+          {email}
         </span>
+        </a>
       </p>
     </section>
   );

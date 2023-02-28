@@ -6,7 +6,7 @@ import {
   AiFillMail as MailButton,
 } from "react-icons/ai";
 import { NavbarLink } from "./NavbarLink";
-import { linkedinUrl, githubUrl, youtubeUrl, mailUrl } from "@/utils/links";
+import { linkedinUrl, githubUrl, youtubeUrl, email } from "@/utils/links";
 
 export const Navbar = () => {
   return (
@@ -29,14 +29,15 @@ export const Navbar = () => {
             <LinkedinButton color="white" size={30} />
           </a>
           <a href={githubUrl} target="_blank">
-            <GithubButton color="white" size={30} href={githubUrl} />
+            <GithubButton color="white" size={30} />
           </a>
           <a href={youtubeUrl} target="_blank">
-            <YoutubeButton color="white" size={30} href={youtubeUrl} />
+            <YoutubeButton color="white" size={30} />
           </a>
-          <a href={mailUrl} target="_blank">
-            <MailButton color="white" size={30} href={mailUrl} />
-          </a>
+          <a href={`mailto:${email}`}>
+          <MailButton color="white" size={30} />
+        </a>
+            
         </div>
       </div>
     </nav>

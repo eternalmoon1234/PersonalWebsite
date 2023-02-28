@@ -9,16 +9,16 @@ export const Experience = () => {
       </h2>
       <div className="">
         <div className="flex flex-col space-y-5">
-            <ExperienceCard
-              title="Product Engineer"
-              organizationColor="foyerPurple"
-              organization="Foyer"
-              organizationUrl="https://foyer.work"
-              description="Seeing the Merdaugh trial on the news today perked my interest in
+          <ExperienceCard
+            title="Product Engineer"
+            organizationColor="foyerPurple"
+            organization="Foyer"
+            organizationUrl="https://foyer.work"
+            description="Seeing the Merdaugh trial on the news today perked my interest in
             the case so I watched this DocuSeries tonight…Wow!"
-              skills="Big Data · Firebase · Node.js · React.js · TypeScript"
-              dateRange="Jan 2023 - Present"
-            />
+            skills="Big Data · Firebase · Node.js · React.js · TypeScript"
+            dateRange="Jan 2023 - Present"
+          />
           <ExperienceCard
             title="Co-Founder"
             organizationColor="tripleyBlue"
