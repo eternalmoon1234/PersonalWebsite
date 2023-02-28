@@ -22,6 +22,7 @@ module.exports = {
         },
         foyerPurple: "var(--color-foyerPurple)",
         tripleyBlue: "var(--color-tripleyBlue)",
+        team5940Red: "var(--color-team5940Red)",
       },
     },
     screens: {

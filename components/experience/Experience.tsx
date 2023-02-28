@@ -7,7 +7,7 @@ export const Experience = () => {
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         work experience
       </h2>
-      <div className="">
+      <div className="space-x-10">
         <div className="flex flex-col space-y-5">
           <ExperienceCard
             title="Product Engineer"

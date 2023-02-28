@@ -35,9 +35,8 @@ export const Navbar = () => {
             <YoutubeButton color="white" size={30} />
           </a>
           <a href={`mailto:${email}`}>
-          <MailButton color="white" size={30} />
-        </a>
-            
+            <MailButton color="white" size={30} />
+          </a>
         </div>
       </div>
     </nav>

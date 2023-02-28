@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { BiLinkExternal as ExternalLink } from "react-icons/bi";
 
 interface ExperienceCardProps {
   title: string;
@@ -21,7 +22,7 @@ export const ExperienceCard: FC<ExperienceCardProps> = ({
 }) => {
   return (
     <div className="flex">
-      <p className="0 w-8/12">{dateRange}</p>
+      <p className="w-8/12">{dateRange}</p>
       <div className="flex flex-col col-span-4 space-y-3">
         <h6 className="text-lg text-white md:text-xl font-beatriceSemibold">
           {title} •{" "}

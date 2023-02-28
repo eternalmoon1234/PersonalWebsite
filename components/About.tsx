@@ -34,9 +34,7 @@ export const About = () => {
         </a>
         . Reach out to me at{" "}
         <a href={`mailto:${email}`}>
-        <span className="text-primary-light underline">
-          {email}
-        </span>
+          <span className="text-primary-light underline">{email}</span>
         </a>
       </p>
     </section>
