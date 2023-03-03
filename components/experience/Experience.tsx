@@ -1,4 +1,4 @@
-import { foyerUrl, githubUrl, tripleyUrl } from "@/utils/links";
+import { foyerUrl, githubUrl, tripleyUrl } from "@/utils/constants";
 import { ExperienceCard } from "./ExperienceCard";
 
 export const Experience = () => {

@@ -9,8 +9,9 @@ import {
   team5940Url,
   tripleyUrl,
   trivalleyHacksUrl,
+  verticalSpacing,
   youtubeUrl,
-} from "@/utils/links";
+} from "@/utils/constants";
 import { Link } from "./Link";
 
 export const PastWork = () => {
@@ -20,7 +21,7 @@ export const PastWork = () => {
         past work / achievements
       </h2>
       <div className="pl-2">
-        <li className="mb-5">
+      <li className={`${verticalSpacing}`}>
           Certified{" "}
           <Link
             type="basic"
@@ -29,12 +30,12 @@ export const PastWork = () => {
           />
         </li>
 
-        <li className="mb-5">
+        <li className={`${verticalSpacing}`}>
           Over 115 subscribers and 5K views on my{" "}
           <Link type="basic" href={youtubeUrl} displayName="YouTube channel" />
         </li>
 
-        <li className="mb-5">
+        <li className={`${verticalSpacing}`}>
           Won 2nd place at{" "}
           <Link
             type="basic"
@@ -44,7 +45,7 @@ export const PastWork = () => {
           with <Link type="basic" href={artMartUrl} displayName="ArtMart" />, a
           platform for collectors to trade physical art.
         </li>
-        <li className="mb-5">
+        <li className={`${verticalSpacing}`}>
           Won 3rd place at{" "}
           <Link
             type="basic"
@@ -55,7 +56,7 @@ export const PastWork = () => {
           , a way for home gardeners to sell their fresh and organic produce
           with consumers in their neighborhood.
         </li>
-        <li className="mb-5">
+        <li className={`${verticalSpacing}`}>
           Won 3rd place at{" "}
           <Link
             type="basic"

@@ -1,4 +1,4 @@
-import { email, foyerUrl, githubUrl, tripleyUrl } from "@/utils/links";
+import { email, foyerUrl, githubUrl, tripleyUrl } from "@/utils/constants";
 import { GitHubButton } from "./GitHubButton";
 import { Link } from "./Link";
 

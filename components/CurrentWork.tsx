@@ -5,18 +5,21 @@ import {
   githubUrl,
   team5940Url,
   tripleyUrl,
+  verticalSpacing,
   youtubeUrl,
-} from "@/utils/links";
+} from "@/utils/constants";
 import { Link } from "./Link";
 
 export const CurrentWork = () => {
+  
+
   return (
     <section className="rounded-lg">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         currently, i'm
       </h2>
       <div className="pl-3">
-        <li className="mb-5">
+      <li className={`${verticalSpacing}`}>
           Working as a product engineer at{" "}
           <Link
             type="color"
@@ -27,7 +30,7 @@ export const CurrentWork = () => {
           , helping maximize the performance of engineering teams.
         </li>
 
-        <li className="mb-5">
+        <li className={`${verticalSpacing}`}>
           Building{" "}
           <Link
             type="color"
@@ -39,7 +42,7 @@ export const CurrentWork = () => {
           effectively.
         </li>
 
-        <li className="mb-5">
+        <li className={`${verticalSpacing}`}>
           Creating content on my YouTube channel called{" "}
           <Link
             type="basic"
@@ -48,7 +51,7 @@ export const CurrentWork = () => {
           />
           , where I talk about and teach tech
         </li>
-        <li className="mb-5">
+        <li className={`${verticalSpacing}`}>
           Technical team member in{" "}
           <Link
             type="basic"

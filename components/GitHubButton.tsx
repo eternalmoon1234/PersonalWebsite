@@ -1,4 +1,4 @@
-import { githubUrl } from "@/utils/links";
+import { githubUrl } from "@/utils/constants";
 
 export const GitHubButton = () => {
   return (
