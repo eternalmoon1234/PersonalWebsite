@@ -88,4 +88,9 @@
     @apply text-white;
     @apply font-beatrice;
   }
+
+  li {
+    @apply text-white;
+    @apply font-beatrice;
+  }
 }

@@ -15,49 +15,55 @@ export const CurrentWork = () => {
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         currently, i'm
       </h2>
-      <p className="mb-5">
-        Working as a product engineer at{" "}
-        <Link
-          type="color"
-          className="text-foyerPurple"
-          href={foyerUrl}
-          displayName="Foyer"
-        />
-        , helping maximize the performance of engineering teams.
-      </p>
+      <div className="pl-3">
+        <li className="mb-5">
+          Working as a product engineer at{" "}
+          <Link
+            type="color"
+            className="text-foyerPurple"
+            href={foyerUrl}
+            displayName="Foyer"
+          />
+          , helping maximize the performance of engineering teams.
+        </li>
 
-      <p className="mb-5">
-        Building{" "}
-        <Link
-          type="color"
-          className="text-tripleyBlue"
-          href={tripleyUrl}
-          displayName="Tripley"
-        />
-        , a mobile app that enables travelers to plan and manage their trips
-        effectively.
-      </p>
+        <li className="mb-5">
+          Building{" "}
+          <Link
+            type="color"
+            className="text-tripleyBlue"
+            href={tripleyUrl}
+            displayName="Tripley"
+          />
+          , a mobile app that enables travelers to plan and manage their trips
+          effectively.
+        </li>
 
-      <p className="mb-5">
-        Creating content on my YouTube channel called{" "}
-        <Link type="basic" href={youtubeUrl} displayName="EternalProgramming" />
-        , where I talk about and teach tech
-      </p>
-      <p className="mb-5">
-        Technical team member in{" "}
-        <Link
-          type="basic"
-          href={frcUrl}
-          displayName="First Robotics Competition"
-        />{" "}
-        <Link
-          type="color"
-          className="text-team5940Red underline"
-          href={team5940Url}
-          displayName="Team 5940"
-        />
-        , in the software sub-team
-      </p>
+        <li className="mb-5">
+          Creating content on my YouTube channel called{" "}
+          <Link
+            type="basic"
+            href={youtubeUrl}
+            displayName="EternalProgramming"
+          />
+          , where I talk about and teach tech
+        </li>
+        <li className="mb-5">
+          Technical team member in{" "}
+          <Link
+            type="basic"
+            href={frcUrl}
+            displayName="First Robotics Competition"
+          />{" "}
+          <Link
+            type="color"
+            className="text-team5940Red underline"
+            href={team5940Url}
+            displayName="Team 5940"
+          />
+          , in the software sub-team
+        </li>
+      </div>
     </section>
   );
 };
