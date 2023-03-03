@@ -11,15 +11,13 @@ import {
 import { Link } from "./Link";
 
 export const CurrentWork = () => {
-  
-
   return (
     <section className="rounded-lg">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         currently, i'm
       </h2>
       <div className="pl-3">
-      <li className={`${verticalSpacing}`}>
+        <li className={`${verticalSpacing}`}>
           Working as a product engineer at{" "}
           <Link
             type="color"

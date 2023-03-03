@@ -21,7 +21,7 @@ export const PastWork = () => {
         past work / achievements
       </h2>
       <div className="pl-2">
-      <li className={`${verticalSpacing}`}>
+        <li className={`${verticalSpacing}`}>
           Certified{" "}
           <Link
             type="basic"
