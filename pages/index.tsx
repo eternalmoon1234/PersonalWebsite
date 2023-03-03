@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { About } from "@/components/About";
 import { Experience } from "@/components/experience/Experience";
 import { CurrentWork } from "@/components/CurrentWork";
+import { PastWork } from "@/components/PastWork";
 
 const projects: ProjectEntity[] = [
   {
@@ -49,6 +50,8 @@ const IndexPage: NextPage = () => (
         <Experience />
         <div className="mt-12"></div>
         <CurrentWork />
+        <div className="mt-12"></div>
+        <PastWork />
         {/* <Projects projects={projects} />
         <Footer /> */}
       </section>

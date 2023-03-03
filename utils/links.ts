@@ -10,3 +10,12 @@ export const foyerUrl: string = "https://foyer.work";
 export const tripleyUrl: string = "https://tripley.app";
 export const frcUrl: string = "https://www.firstinspires.org/robotics/frc";
 export const team5940Url: string = "https://www.team5940.org/";
+export const ibmFullStackCourseUrl: string = "https://coursera.org";
+
+// Hackathons
+export const lancerHacksUrl: string = "https://lancerhacks.com/";
+export const trivalleyHacksUrl: string = ""
+export const artMartUrl: string = "";
+export const evergreenUrl: string = "";
+export const geochattrUrl: string = "";
+
