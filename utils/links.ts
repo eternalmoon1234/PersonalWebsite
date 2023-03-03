@@ -14,8 +14,7 @@ export const ibmFullStackCourseUrl: string = "https://coursera.org";
 
 // Hackathons
 export const lancerHacksUrl: string = "https://lancerhacks.com/";
-export const trivalleyHacksUrl: string = ""
+export const trivalleyHacksUrl: string = "";
 export const artMartUrl: string = "";
 export const evergreenUrl: string = "";
 export const geochattrUrl: string = "";
-

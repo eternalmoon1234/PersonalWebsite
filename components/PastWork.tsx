@@ -41,13 +41,21 @@ export const PastWork = () => {
       </p>
       <p className="mb-5">
         Won 3rd place at{" "}
-        <Link type="basic" href={trivalleyHacksUrl} displayName="Trivalley Hacks" />{" "}
-        with <Link type="basic" href={evergreenUrl} displayName="Evergreen" />, a way for home gardeners to sell their fresh and organic produce with consumers in their neighborhood.
+        <Link
+          type="basic"
+          href={trivalleyHacksUrl}
+          displayName="Trivalley Hacks"
+        />{" "}
+        with <Link type="basic" href={evergreenUrl} displayName="Evergreen" />,
+        a way for home gardeners to sell their fresh and organic produce with
+        consumers in their neighborhood.
       </p>
       <p className="mb-5">
         Won 3rd place at{" "}
         <Link type="basic" href={lancerHacksUrl} displayName="LancerHacks V" />{" "}
-        with <Link type="basic" href={geochattrUrl} displayName="Geochattr" />, a web app that enables users to chat with people in their city through doodles and drawings.
+        with <Link type="basic" href={geochattrUrl} displayName="Geochattr" />,
+        a web app that enables users to chat with people in their city through
+        doodles and drawings.
       </p>
     </section>
   );
