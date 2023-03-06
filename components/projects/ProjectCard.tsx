@@ -1,11 +1,5 @@
+import { ProjectEntity as ProjectCardProps } from "@/entities/ProjectEntity";
 import { FC } from "react";
-
-interface ProjectCardProps {
-  imageUrl?: string;
-  title: string;
-  description: string;
-  skills: string;
-}
 
 export const ProjectCard: FC<ProjectCardProps> = ({
   imageUrl,

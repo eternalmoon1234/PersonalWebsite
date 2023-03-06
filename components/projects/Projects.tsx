@@ -16,15 +16,15 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
       </h2>
 
       <div className="space-y-10">
-      {projects.map((project) => {
-        return (
-          <ProjectCard
-            title={project.title}
-            description={project.description}
-            skills={project.skills}
-          />
-        );
-      })}
+        {projects.map((project) => {
+          return (
+            <ProjectCard
+              title={project.title}
+              description={project.description}
+              skills={project.skills}
+            />
+          );
+        })}
       </div>
     </section>
   );
