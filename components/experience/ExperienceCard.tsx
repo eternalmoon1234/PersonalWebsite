@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { BiLinkExternal as ExternalLink } from "react-icons/bi";
 
 interface ExperienceCardProps {
   title: string;

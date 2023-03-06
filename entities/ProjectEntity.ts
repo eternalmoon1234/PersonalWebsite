@@ -1,7 +1,6 @@
 export interface ProjectEntity {
+  imageUrl?: string;
   title: string;
   description: string;
-  imageUrl: string;
-  link: string;
-  technologies: string[];
+  skills: string;
 }

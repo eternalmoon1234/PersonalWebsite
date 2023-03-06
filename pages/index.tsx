@@ -14,23 +14,20 @@ const projects: ProjectEntity[] = [
   {
     title: "Project 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    link: "https://project1.com",
-    technologies: ["React", "TypeScript", "TailwindCSS"],
+    skills: "React, TypeScript, TailwindCSS",
     imageUrl:
       "https://media.licdn.com/dms/image/C562DAQFbz0Fhxv0mSw/profile-treasury-image-shrink_800_800/0/1672799338241?e=1673496000&v=beta&t=jELjtV5W1v-ZEuhUGVOFPNR8Cc36Iyrtvryh8hS3d6M",
   },
   {
     title: "Project 2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    link: "https://project2.com",
-    technologies: ["JavaScript", "Node.js", "Express"],
+    skills: "React, TypeScript, TailwindCSS",
     imageUrl: "/project2.jpg",
   },
   {
     title: "Project 3",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    link: "https://project3.com",
-    technologies: ["Python", "Flask", "PostgreSQL"],
+    skills: "React, TypeScript, TailwindCSS",
     imageUrl: "/project3.jpg",
   },
 ];
