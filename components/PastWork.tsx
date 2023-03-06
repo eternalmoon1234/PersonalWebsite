@@ -1,13 +1,9 @@
 import {
   artMartUrl,
   evergreenUrl,
-  foyerUrl,
-  frcUrl,
   geochattrUrl,
   ibmFullStackCourseUrl,
   lancerHacksUrl,
-  team5940Url,
-  tripleyUrl,
   trivalleyHacksUrl,
   verticalSpacing,
   youtubeUrl,

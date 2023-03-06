@@ -11,7 +11,7 @@ export const tripleyUrl: string = "https://tripley.app";
 export const frcUrl: string = "https://www.firstinspires.org/robotics/frc";
 export const team5940Url: string = "https://www.team5940.org/";
 export const ibmFullStackCourseUrl: string = "https://coursera.org";
-export const verticalSpacing = "mb-3";
+export const verticalSpacing = "mb-2";
 
 // Hackathons
 export const lancerHacksUrl: string = "https://lancerhacks.com/";
