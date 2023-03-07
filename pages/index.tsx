@@ -45,12 +45,12 @@ const IndexPage: NextPage = () => (
       <Navbar />
     </FadeIn>
 
-      <div className="mx-auto flex w-full max-w-xl flex-col justify-center py-16">
-        <section
-          className="
+    <div className="mx-auto flex w-full max-w-xl flex-col justify-center py-16">
+      <section
+        className="
               mt-16 w-full self-start text-dark-900"
-        >
-          <FadeIn delay={75}>
+      >
+        <FadeIn delay={75}>
           <Hero />
           <div className="mt-12"></div>
           <About />
@@ -63,9 +63,9 @@ const IndexPage: NextPage = () => (
           <div className="mt-12"></div>
           <Projects projects={projects} />
           <Footer />
-          </FadeIn>
-        </section>
-      </div>
+        </FadeIn>
+      </section>
+    </div>
   </Layout>
 );
 
