@@ -21,7 +21,6 @@ export const Navbar = () => {
           </Link>
           <NavbarLink href="/work" title="work" />
           <NavbarLink href="/about" title="about" />
-          <NavbarLink href="/posts" title="posts" />
           <NavbarLink href="/contact" title="contact" />
         </div>
         <div className="flex items-center space-x-2 sm:space-x-4">

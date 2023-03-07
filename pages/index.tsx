@@ -57,11 +57,12 @@ const IndexPage: NextPage = () => (
           <div className="mt-12"></div>
           <Experience />
           <div className="mt-12"></div>
+          <Projects projects={projects} />
+          <div className="mt-12"></div>
           <CurrentWork />
           <div className="mt-12"></div>
           <PastWork />
           <div className="mt-12"></div>
-          <Projects projects={projects} />
           <Footer />
         </FadeIn>
       </section>

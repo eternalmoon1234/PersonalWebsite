@@ -17,7 +17,6 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         featured projects
       </h2>
-
       <div className="space-y-10">
         {projects.map((project) => {
           return (
