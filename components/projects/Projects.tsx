@@ -29,11 +29,12 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
           );
         })}
       </div>
-      <div  className="flex items-center space-x-2 pt-5 cursor-pointer" onClick={() => router.push("/projects")}>
-      <p className="text-gray-300">
-        see all projects 
-      </p>
-      <RightArrowButton className="text-gray-300" size={20}/>{" "}
+      <div
+        className="flex items-center space-x-2 pt-5 cursor-pointer"
+        onClick={() => router.push("/projects")}
+      >
+        <p className="text-gray-300">see all projects</p>
+        <RightArrowButton className="text-gray-300" size={20} />{" "}
       </div>
     </section>
   );
