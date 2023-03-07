@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import FadeIn from 'react-fade-in'
+import FadeIn from "react-fade-in";
 import { Layout } from "@/components/Layout";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Hero } from "@/components/Hero";
@@ -10,7 +10,6 @@ import { About } from "@/components/About";
 import { Experience } from "@/components/experience/Experience";
 import { CurrentWork } from "@/components/CurrentWork";
 import { PastWork } from "@/components/PastWork";
-
 
 const projects: ProjectEntity[] = [
   {
@@ -43,27 +42,30 @@ const projects: ProjectEntity[] = [
 const IndexPage: NextPage = () => (
   <Layout>
     <FadeIn>
-    <Navbar />
-    <div className="mx-auto flex w-full max-w-xl flex-col justify-center py-16">
-      <section
-        className="
-              mt-16 w-full self-start text-dark-900"
-      >
-        <Hero />
-        <div className="mt-12"></div>
-        <About />
-        <div className="mt-12"></div>
-        <Experience />
-        <div className="mt-12"></div>
-        <CurrentWork />
-        <div className="mt-12"></div>
-        <PastWork />
-        <div className="mt-12"></div>
-        <Projects projects={projects} />
-        <Footer />
-      </section>
-    </div>
+      <Navbar />
     </FadeIn>
+
+      <div className="mx-auto flex w-full max-w-xl flex-col justify-center py-16">
+        <section
+          className="
+              mt-16 w-full self-start text-dark-900"
+        >
+          <FadeIn delay={75}>
+          <Hero />
+          <div className="mt-12"></div>
+          <About />
+          <div className="mt-12"></div>
+          <Experience />
+          <div className="mt-12"></div>
+          <CurrentWork />
+          <div className="mt-12"></div>
+          <PastWork />
+          <div className="mt-12"></div>
+          <Projects projects={projects} />
+          <Footer />
+          </FadeIn>
+        </section>
+      </div>
   </Layout>
 );
 
