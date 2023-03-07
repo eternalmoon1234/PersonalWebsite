@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import FadeIn from 'react-fade-in'
 import { Layout } from "@/components/Layout";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Hero } from "@/components/Hero";
@@ -9,6 +10,7 @@ import { About } from "@/components/About";
 import { Experience } from "@/components/experience/Experience";
 import { CurrentWork } from "@/components/CurrentWork";
 import { PastWork } from "@/components/PastWork";
+
 
 const projects: ProjectEntity[] = [
   {
@@ -40,6 +42,7 @@ const projects: ProjectEntity[] = [
 
 const IndexPage: NextPage = () => (
   <Layout>
+    <FadeIn>
     <Navbar />
     <div className="mx-auto flex w-full max-w-xl flex-col justify-center py-16">
       <section
@@ -60,6 +63,7 @@ const IndexPage: NextPage = () => (
         <Footer />
       </section>
     </div>
+    </FadeIn>
   </Layout>
 );
 
