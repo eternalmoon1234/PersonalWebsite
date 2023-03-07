@@ -21,8 +21,8 @@ export const ExperienceCard: FC<ExperienceCardProps> = ({
 }) => {
   return (
     <div className="flex">
-      <p className="w-8/12">{dateRange}</p>
-      <div className="flex flex-col col-span-4 space-y-3">
+      <p className="w-6/12">{dateRange}</p>
+      <div className="flex flex-col col-span-3 space-y-3 w-full">
         <h6 className="text-lg text-white md:text-xl font-beatriceSemibold">
           {title} •{" "}
           <a href={organizationUrl} target="_blank">

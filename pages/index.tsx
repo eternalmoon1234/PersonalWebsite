@@ -13,7 +13,7 @@ import { PastWork } from "@/components/PastWork";
 
 const projects: ProjectEntity[] = [
   {
-    title: "Project 1",
+    title: "Tripley",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     skills: "React, TypeScript, TailwindCSS",
     viewLink: "https://google.com",

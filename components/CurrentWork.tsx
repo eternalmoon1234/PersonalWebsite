@@ -41,13 +41,13 @@ export const CurrentWork = () => {
         </li>
 
         <li className={`${verticalSpacing}`}>
-        Creating practical, useful, and informative videos about tech on my YouTube channel {", "}
+          Creating practical, useful, and informative videos about tech on my
+          YouTube channel {", "}
           <Link
             type="basic"
             href={youtubeUrl}
             displayName="EternalProgramming"
           />
-          
         </li>
         <li className={`${verticalSpacing}`}>
           Technical team member in{" "}

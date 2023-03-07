@@ -7,7 +7,8 @@ export const About = () => {
     <section className="rounded-lg">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">about</h2>
       <p className="mb-5">
-        I'm Gautam, a high school freshman, passionate about startups, software, and open source.
+        I'm Gautam, a high school student, passionate about startups, software,
+        and open source.
       </p>
       <p className="mb-5">
         Currently, I work as a product engineer at{" "}
@@ -33,11 +34,13 @@ export const About = () => {
       </p>
 
       <p className="mb-5">
-        Check out my <Link type="basic" href={""} displayName="work" />, and my GitHub <GitHubButton />{". "} If you'd like to chat about software, or would just like to connect, feel free to <Link type="basic" href={`mailto:${email}`} displayName="reach out" />!
+        Check out my <Link type="basic" href={""} displayName="work" />, and my
+        GitHub <GitHubButton />
+        {". "} If you'd like to chat about software, or would just like to
+        connect, feel free to{" "}
+        <Link type="basic" href={`mailto:${email}`} displayName="reach out" />!
       </p>
-      <p className="mb-5">
-      
-      </p>
+      <p className="mb-5"></p>
     </section>
   );
 };

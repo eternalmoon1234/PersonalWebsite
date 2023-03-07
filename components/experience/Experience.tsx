@@ -24,8 +24,7 @@ export const Experience = () => {
             organizationColor="tripleyBlue"
             organization="Tripley"
             organizationUrl="https://tripley.app"
-            description="Seeing the Merdaugh trial on the news today perked my interest in
-            the case so I watched this DocuSeries tonight…Wow!"
+            description="Building the all-in-one platform to plan and manage your trips, effectively."
             skills="TS • Node"
             dateRange="May 2022 - Present"
           />
@@ -34,9 +33,8 @@ export const Experience = () => {
             organizationColor="white"
             organization="neusleep"
             organizationUrl="https://neusleep.com"
-            description="Seeing the Merdaugh trial on the news today perked my interest in
-            the case so I watched this DocuSeries tonight…Wow!"
-            skills="TS • Node"
+            description="Developed a custom, high-performing internal developer dashboard to assist with clinical studies using the neusleep hardware device."
+            skills="Big Data • Data Analysis • Firebase • Node.js • React.js • TypeScript"
             dateRange="Jun 2022 - Oct 2022"
           />
         </div>
