@@ -35,10 +35,12 @@ const IndexPage: NextPage = () => (
           <div className="mt-12"></div>
           <PastWork />
           <div className="mt-12"></div>
-          <Footer />
         </FadeIn>
       </section>
     </div>
+    <FadeIn>
+    <Footer />
+    </FadeIn>
   </Layout>
 );
 
