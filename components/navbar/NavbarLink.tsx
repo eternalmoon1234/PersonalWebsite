@@ -1,17 +1,15 @@
 import Link from "next/link";
 
 export const NavbarLink = ({
-  href,
   title,
+  onClick
 }: {
-  href: string;
   title: string;
+  onClick: any
 }) => {
   return (
-    <Link href={href}>
-      <p className="hover:cursor-pointer text-xl text-primary-light font-syne">
+    <span onClick={onClick} className="hover:cursor-pointer text-xl text-primary-light font-syne">
         ./{title}
-      </p>
-    </Link>
+    </span>
   );
 };

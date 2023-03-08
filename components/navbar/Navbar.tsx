@@ -7,8 +7,12 @@ import {
 } from "react-icons/ai";
 import { NavbarLink } from "./NavbarLink";
 import { linkedinUrl, githubUrl, youtubeUrl, email } from "@/utils/constants";
+import { scrollTo } from "@/utils/scrollTo";
+import { useRouter } from "next/router";
 
 export const Navbar = () => {
+  const router = useRouter();
+
   return (
     <nav className="flex items-center justify-between pt-5">
       <div className="mx-auto flex w-full max-w-7xl px-5 justify-between">
@@ -19,10 +23,10 @@ export const Navbar = () => {
               <span className="text-primary-light">p</span>aranjape
             </h3>
           </Link>
-          <NavbarLink href="/work" title="work" />
-          <NavbarLink href="/projects" title="projects" />
-          <NavbarLink href="/about" title="about" />
-          <NavbarLink href="/contact" title="contact" />
+          <NavbarLink onClick={() => scrollTo("work")} title="work" />
+          <NavbarLink onClick={() => router.push("/projects")} title="projects" />
+          <NavbarLink onClick={() => scrollTo("about")} title="about" />
+          <NavbarLink onClick={() => {}} title="contact" />
         </div>
         <div className="flex items-center space-x-2 sm:space-x-4">
           <a href={linkedinUrl} target="_blank">

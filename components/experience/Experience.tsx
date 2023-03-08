@@ -9,7 +9,7 @@ interface ExperienceProps {
 
 export const Experience: FC<ExperienceProps> = ({ experiences }) => {
   return (
-    <section>
+    <section id="work">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight mt-12">
         work experience
       </h2>
