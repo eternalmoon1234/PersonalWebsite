@@ -10,6 +10,8 @@ import { About } from "@/components/About";
 import { Experience } from "@/components/experience/Experience";
 import { CurrentWork } from "@/components/CurrentWork";
 import { PastWork } from "@/components/PastWork";
+import { ExperienceEntity } from "@/entities/ExperienceEntity";
+import { foyerUrl, neusleepUrl, tripleyUrl } from "@/utils/constants";
 
 const projects: ProjectEntity[] = [
   {
@@ -39,6 +41,39 @@ const projects: ProjectEntity[] = [
   },
 ];
 
+const experiences: ExperienceEntity[] = [
+  {
+    title: "Product Engineer",
+    organizationColor: "foyerPurple",
+    organization: "Foyer",
+    organizationUrl: foyerUrl,
+    description:
+      "Seeing the Merdaugh trial on the news today perked my interest in the case so I watched this DocuSeries tonight…Wow!",
+    skills: "Big Data · Firebase · Node.js · React.js · TypeScript",
+    dateRange: "Jan 2023 - Present",
+  },
+  {
+    title: "Co-Founder",
+    organizationColor: "tripleyBlue",
+    organization: "Tripley",
+    organizationUrl: tripleyUrl,
+    description:
+      "Building the all-in-one platform to plan and manage your trips, effectively.",
+    skills: "TS • Node",
+    dateRange: "May 2022 - Present",
+  },
+  {
+    title: "Software Engineer",
+    organizationColor: "white",
+    organization: "neusleep",
+    organizationUrl: neusleepUrl,
+    description:
+      "Developed a custom, high-performing internal developer dashboard to assist with clinical studies using the neusleep hardware device.",
+    skills:
+      "Big Data • Data Analysis • Firebase • Node.js • React.js • TypeScript",
+    dateRange: "Jun 2022 - Oct 2022",
+  },
+];
 const IndexPage: NextPage = () => (
   <Layout>
     <FadeIn>
@@ -55,7 +90,7 @@ const IndexPage: NextPage = () => (
           <div className="mt-12"></div>
           <About />
           <div className="mt-12"></div>
-          <Experience />
+          <Experience experiences={experiences} />
           <div className="mt-12"></div>
           <Projects projects={projects} />
           <div className="mt-12"></div>

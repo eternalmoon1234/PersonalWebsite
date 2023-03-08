@@ -8,6 +8,7 @@ export const email: string = "gautamparanjape8@gmail.com";
 // Other
 export const foyerUrl: string = "https://foyer.work";
 export const tripleyUrl: string = "https://tripley.app";
+export const neusleepUrl: string = "https://neusleep.com";
 export const frcUrl: string = "https://www.firstinspires.org/robotics/frc";
 export const team5940Url: string = "https://www.team5940.org/";
 export const ibmFullStackCourseUrl: string = "https://coursera.org";

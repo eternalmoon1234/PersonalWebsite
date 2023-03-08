@@ -1,16 +1,7 @@
+import { ExperienceEntity } from "@/entities/ExperienceEntity";
 import { FC } from "react";
 
-interface ExperienceCardProps {
-  title: string;
-  organizationColor: "foyerPurple" | "tripleyBlue" | "white";
-  organization: string;
-  organizationUrl: string;
-  description: string;
-  skills: string;
-  dateRange: string;
-}
-
-export const ExperienceCard: FC<ExperienceCardProps> = ({
+export const ExperienceCard: FC<ExperienceEntity> = ({
   title,
   organizationColor,
   organization,
