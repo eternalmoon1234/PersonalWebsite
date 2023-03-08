@@ -5,10 +5,7 @@ interface NavbarLinkProps {
   onClick: any;
 }
 
-export const NavbarLink: FC<NavbarLinkProps> = ({
-  title,
-  onClick,
-}) => {
+export const NavbarLink: FC<NavbarLinkProps> = ({ title, onClick }) => {
   return (
     <span
       onClick={onClick}

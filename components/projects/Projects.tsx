@@ -10,10 +10,7 @@ interface ProjectsProps {
   projectsPage: boolean;
 }
 
-export const Projects: FC<ProjectsProps> = ({
-  projects,
-  projectsPage,
-}) => {
+export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
   const router = useRouter();
 
   return (
