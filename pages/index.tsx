@@ -24,20 +24,14 @@ const IndexPage: NextPage = () => (
       >
         <FadeIn delay={75}>
           <Hero />
-          <div className="mt-12"></div>
           <About />
-          <div className="mt-12"></div>
           <Experience experiences={experiences} />
-          </FadeIn>
-          <div className="mt-12"></div>
-          <Projects projects={projects} projectsPage={false} />
-          <FadeIn delay={75}>
-          <div className="mt-12"></div>
+        </FadeIn>
+        <Projects projects={projects} projectsPage={false} />
+        <FadeIn delay={75}>
           <CurrentWork />
-          <div className="mt-12"></div>
           <PastWork />
-          <div className="mt-12"></div>
-          </FadeIn>
+        </FadeIn>
       </section>
     </div>
     <FadeIn>

@@ -12,7 +12,7 @@ import { Link } from "./Link";
 
 export const CurrentWork = () => {
   return (
-    <section className="rounded-lg">
+    <section className="rounded-lg mt-12">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         currently, i'm
       </h2>

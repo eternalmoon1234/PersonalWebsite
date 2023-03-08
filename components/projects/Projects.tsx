@@ -18,23 +18,22 @@ export const Projects: React.FC<ProjectsProps> = ({
   const router = useRouter();
 
   return (
-    <section className="rounded-lg">
+    <section className="rounded-lg mt-12">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         {projectsPage ? "projects" : "featured projects"}
       </h2>
       <FadeIn>
-
-      <div className="space-y-7">
-        {projects.map((project) => {
-          return (
-            <ProjectCard
-              title={project.title}
-              description={project.description}
-              skills={project.skills}
-            />
-          );
-        })}
-      </div>
+        <div className="space-y-7">
+          {projects.map((project) => {
+            return (
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                skills={project.skills}
+              />
+            );
+          })}
+        </div>
       </FadeIn>
       {projectsPage ? null : (
         <div
