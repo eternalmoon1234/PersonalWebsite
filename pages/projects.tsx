@@ -22,7 +22,7 @@ const ProjectsPage: NextPage = () => (
         className="
               w-full self-start text-dark-900"
       >
-        <FadeIn delay={75}>s
+        <FadeIn delay={75}>
           <Projects projects={projects} projectsPage={true} />
         </FadeIn>
       </section>

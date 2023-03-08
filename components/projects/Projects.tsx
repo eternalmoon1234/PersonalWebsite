@@ -4,21 +4,27 @@ import Link from "next/link";
 import { HiOutlineArrowNarrowRight as RightArrowButton } from "react-icons/hi";
 import { ProjectCard } from "./ProjectCard";
 import { useRouter } from "next/router";
+import FadeIn from "react-fade-in/lib/FadeIn";
 
 interface ProjectsProps {
   projects: ProjectEntity[];
   projectsPage: boolean;
 }
 
-export const Projects: React.FC<ProjectsProps> = ({ projects, projectsPage }) => {
+export const Projects: React.FC<ProjectsProps> = ({
+  projects,
+  projectsPage,
+}) => {
   const router = useRouter();
 
   return (
     <section className="rounded-lg">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
-        {projectsPage ? "projects" : "featured projects"} 
+        {projectsPage ? "projects" : "featured projects"}
       </h2>
-      <div className="space-y-10">
+      <FadeIn>
+
+      <div className="space-y-7">
         {projects.map((project) => {
           return (
             <ProjectCard
@@ -29,15 +35,16 @@ export const Projects: React.FC<ProjectsProps> = ({ projects, projectsPage }) =>
           );
         })}
       </div>
-      
-      {projectsPage ? null :  <div
-        className="flex items-center space-x-2 pt-5 cursor-pointer"
-        onClick={() => router.push("/projects")}
-      >
-        <p className="text-gray-300">see all projects</p>
-        <RightArrowButton className="text-gray-300" size={20} />{" "}
-      </div>}
-     
+      </FadeIn>
+      {projectsPage ? null : (
+        <div
+          className="flex items-center space-x-2 pt-5 cursor-pointer"
+          onClick={() => router.push("/projects")}
+        >
+          <p className="text-gray-300">see all projects</p>
+          <RightArrowButton className="text-gray-300" size={20} />{" "}
+        </div>
+      )}
     </section>
   );
 };

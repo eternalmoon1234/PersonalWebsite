@@ -20,6 +20,7 @@ export const Navbar = () => {
             </h3>
           </Link>
           <NavbarLink href="/work" title="work" />
+          <NavbarLink href="/projects" title="projects" />
           <NavbarLink href="/about" title="about" />
           <NavbarLink href="/contact" title="contact" />
         </div>
