@@ -8,9 +8,10 @@ import {
   verticalSpacing,
   youtubeUrl,
 } from "@/utils/constants";
+import { FC } from "react";
 import { Link } from "./Link";
 
-export const PastWork = () => {
+export const PastWork: FC = () => {
   return (
     <section className="rounded-lg mt-12">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">

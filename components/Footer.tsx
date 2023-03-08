@@ -1,4 +1,6 @@
-export const Footer = () => {
+import { FC } from "react";
+
+export const Footer: FC = () => {
   return (
     <footer className="rounded-lg shadow mt-12">
       <hr className=" border-gray-700 sm:mx-auto w-full" />

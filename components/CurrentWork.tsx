@@ -1,16 +1,15 @@
 import {
-  email,
   foyerUrl,
   frcUrl,
-  githubUrl,
   team5940Url,
   tripleyUrl,
   verticalSpacing,
   youtubeUrl,
 } from "@/utils/constants";
+import { FC } from "react";
 import { Link } from "./Link";
 
-export const CurrentWork = () => {
+export const CurrentWork:FC = () => {
   return (
     <section className="rounded-lg mt-12">
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">

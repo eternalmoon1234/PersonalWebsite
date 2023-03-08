@@ -1,6 +1,5 @@
-import React from "react";
+import { FC } from "react";
 import { ProjectEntity } from "@/entities/ProjectEntity";
-import Link from "next/link";
 import { HiOutlineArrowNarrowRight as RightArrowButton } from "react-icons/hi";
 import { ProjectCard } from "./ProjectCard";
 import { useRouter } from "next/router";
@@ -11,7 +10,7 @@ interface ProjectsProps {
   projectsPage: boolean;
 }
 
-export const Projects: React.FC<ProjectsProps> = ({
+export const Projects: FC<ProjectsProps> = ({
   projects,
   projectsPage,
 }) => {

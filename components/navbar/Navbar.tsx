@@ -9,8 +9,9 @@ import { NavbarLink } from "./NavbarLink";
 import { linkedinUrl, githubUrl, youtubeUrl, email } from "@/utils/constants";
 import { scrollTo } from "@/utils/scrollTo";
 import { useRouter } from "next/router";
+import { FC } from "react";
 
-export const Navbar = () => {
+export const Navbar: FC = () => {
   const router = useRouter();
 
   return (
@@ -24,7 +25,10 @@ export const Navbar = () => {
             </h3>
           </Link>
           <NavbarLink onClick={() => scrollTo("work")} title="work" />
-          <NavbarLink onClick={() => router.push("/projects")} title="projects" />
+          <NavbarLink
+            onClick={() => router.push("/projects")}
+            title="projects"
+          />
           <NavbarLink onClick={() => scrollTo("about")} title="about" />
           <NavbarLink onClick={() => {}} title="contact" />
         </div>

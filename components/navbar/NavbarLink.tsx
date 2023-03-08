@@ -1,15 +1,20 @@
-import Link from "next/link";
+import { FC } from "react";
 
-export const NavbarLink = ({
-  title,
-  onClick
-}: {
+interface NavbarLinkProps {
   title: string;
-  onClick: any
+  onClick: any;
+}
+
+export const NavbarLink: FC<NavbarLinkProps> = ({
+  title,
+  onClick,
 }) => {
   return (
-    <span onClick={onClick} className="hover:cursor-pointer text-xl text-primary-light font-syne">
-        ./{title}
+    <span
+      onClick={onClick}
+      className="hover:cursor-pointer text-xl text-primary-light font-syne"
+    >
+      ./{title}
     </span>
   );
 };

@@ -1,5 +1,4 @@
 import { ExperienceEntity } from "@/entities/ExperienceEntity";
-import { foyerUrl, neusleepUrl, tripleyUrl } from "@/utils/constants";
 import { FC } from "react";
 import { ExperienceCard } from "./ExperienceCard";
 

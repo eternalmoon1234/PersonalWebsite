@@ -1,4 +1,6 @@
-export const Hero = () => {
+import { FC } from "react";
+
+export const Hero: FC = () => {
   return (
     <section className="flex justify-center space-x-20" id="hero">
       <img
