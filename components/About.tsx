@@ -1,4 +1,4 @@
-import { email, foyerUrl, githubUrl, tripleyUrl } from "@/utils/constants";
+import { email, foyerUrl, githubUrl, linkedinUrl, tripleyUrl } from "@/utils/constants";
 import { GitHubButton } from "./GitHubButton";
 import { Link } from "./Link";
 
@@ -36,7 +36,7 @@ export const About = () => {
       <p className="mb-5">
         If you'd like to chat about software, or would just like to connect,
         feel free to{" "}
-        <Link type="basic" href={`mailto:${email}`} displayName="reach out" />!
+        <Link type="basic" href={linkedinUrl} displayName="reach out" />!
       </p>
       <p className="mb-5"></p>
     </section>
