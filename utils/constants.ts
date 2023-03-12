@@ -4,6 +4,7 @@ export const githubUrl: string = "https://github.com/eternalmoon1234";
 export const youtubeUrl: string =
   "https://www.youtube.com/channel/UCylERzQ4X5gm58R-erHdmBg";
 export const email: string = "gautamparanjape8@gmail.com";
+export const twitterUrl: string = "https://twitter.com/gautamparanjape"
 
 // Other
 export const foyerUrl: string = "https://foyer.work";

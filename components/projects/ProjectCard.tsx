@@ -6,8 +6,6 @@ import { FC } from "react";
 export const ProjectCard: FC<ProjectCardProps> = ({
   imageUrl,
   title,
-  viewLink,
-  githubLink,
   description,
   skills,
 }) => {

@@ -4,9 +4,10 @@ import {
   AiFillYoutube as YoutubeButton,
   AiFillGithub as GithubButton,
   AiFillMail as MailButton,
+  AiOutlineTwitter as TwitterButton
 } from "react-icons/ai";
 import { NavbarLink } from "./NavbarLink";
-import { linkedinUrl, githubUrl, youtubeUrl, email } from "@/utils/constants";
+import { linkedinUrl, githubUrl, youtubeUrl, twitterUrl, email } from "@/utils/constants";
 import { scrollTo } from "@/utils/scrollTo";
 import { useRouter } from "next/router";
 import { FC } from "react";
@@ -15,7 +16,7 @@ export const Navbar: FC = () => {
   const router = useRouter();
 
   return (
-    <nav className="flex items-center justify-between pt-5">
+    <nav className="flex items-center justify-between pt-7">
       <div className="mx-auto flex w-full max-w-7xl px-5 justify-between">
         <div className="flex items-center space-x-0 text-xs sm:space-x-7 sm:text-lg">
           <Link href="/">
@@ -44,6 +45,9 @@ export const Navbar: FC = () => {
           </a>
           <a href={youtubeUrl} target="_blank">
             <YoutubeButton color="white" size={30} />
+          </a>
+          <a href={twitterUrl} target="_blank">
+            <TwitterButton color="white" size={30} />
           </a>
           <a href={`mailto:${email}`}>
             <MailButton color="white" size={30} />
