@@ -33,10 +33,13 @@ export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
       </FadeIn>
       {projectsPage ? null : (
         <div
-          className="flex items-center space-x-2 pt-5 cursor-pointer"
+          className="flex items-center space-x-2 pt-5 cursor-pointer relative group"
           onClick={() => router.push("/projects")}
         >
-          <p className="text-gray-300">see all projects</p>
+          
+          
+          <span className="absolute -bottom-1 left-0 w-0 h-0.5 rounded-lg bg-blue-400 transition-all group-hover:w-1/2"></span>
+          <p className="text-gray-300 hover:text-white transition-all">see all projects</p>
           <RightArrowButton className="text-gray-300" size={20} />{" "}
         </div>
       )}

@@ -37,7 +37,7 @@ export const PastWork: FC = () => {
           <Link
             type="basic"
             href={lancerHacksUrl}
-            displayName="LancerHacks VI"
+            displayName="LancerHacks 2023"
           />{" "}
           with <Link type="basic" href={artMartUrl} displayName="ArtMart" />, a
           platform for collectors to trade physical art.
@@ -47,7 +47,7 @@ export const PastWork: FC = () => {
           <Link
             type="basic"
             href={trivalleyHacksUrl}
-            displayName="Trivalley Hacks"
+            displayName="Trivalley Hacks 2022"
           />{" "}
           with <Link type="basic" href={evergreenUrl} displayName="Evergreen" />
           , a way for home gardeners to sell their fresh and organic produce
@@ -58,7 +58,7 @@ export const PastWork: FC = () => {
           <Link
             type="basic"
             href={lancerHacksUrl}
-            displayName="LancerHacks V"
+            displayName="LancerHacks 2022"
           />{" "}
           with <Link type="basic" href={geochattrUrl} displayName="Geochattr" />
           , a web app that enables users to chat with people in their city
