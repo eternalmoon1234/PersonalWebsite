@@ -1,12 +1,32 @@
 {
     "commit_message": "$1: $2+",
+    "commit_message_arguments": [
+        {
+            "argument": 1,
+            "case": "lower",
+            "type_enums": [
+                "fix",
+                "feat",
+                "chore",
+                "refactor",
+                "docs",
+                "style",
+                "deps",
+                "perf",
+                "ci",
+                "build"
+            ]
+        }
+    ],
     "custom_tasks": [
         {
-            "name": "format",
+            "name": "lint",
             "execute": [
                 "prettier --write ."
             ]
         }
     ],
-    "hooks": ["format"]
+    "hooks": [
+        "lint"
+    ]
 }
