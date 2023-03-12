@@ -9,7 +9,7 @@ import { About } from "@/components/About";
 import { Experience } from "@/components/experience/Experience";
 import { CurrentWork } from "@/components/CurrentWork";
 import { PastWork } from "@/components/PastWork";
-import { experiences, projects } from "data/data";
+import { experiences, projects } from "@/data/data";
 
 const IndexPage: NextPage = () => (
   <Layout>
@@ -22,13 +22,13 @@ const IndexPage: NextPage = () => (
         className="
               mt-16 w-full self-start text-dark-900"
       >
-        <FadeIn delay={75}>
+        <FadeIn delay={100}>
           <Hero />
           <About />
           <Experience experiences={experiences} />
         </FadeIn>
         <Projects projects={projects} projectsPage={false} />
-        <FadeIn delay={75}>
+        <FadeIn delay={100}>
           <CurrentWork />
           <PastWork />
         </FadeIn>

@@ -53,7 +53,7 @@ export const experiences: ExperienceEntity[] = [
   },
   {
     title: "Software Engineer",
-    organizationColor: "white",
+    organizationColor: "gray-200",
     organization: "neusleep",
     organizationUrl: neusleepUrl,
     description:

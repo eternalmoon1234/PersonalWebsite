@@ -30,7 +30,10 @@ export const Navbar: FC = () => {
             title="projects"
           />
           <NavbarLink onClick={() => scrollTo("about")} title="about" />
-          <NavbarLink onClick={() => {}} title="contact" />
+          <NavbarLink
+            onClick={() => router.push(`mailto:${email}`)}
+            title="contact"
+          />
         </div>
         <div className="flex items-center space-x-2 sm:space-x-4">
           <a href={linkedinUrl} target="_blank">

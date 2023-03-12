@@ -2,14 +2,9 @@ import { NextPage } from "next";
 import FadeIn from "react-fade-in";
 import { Layout } from "@/components/Layout";
 import { Navbar } from "@/components/navbar/Navbar";
-import { Hero } from "@/components/Hero";
 import { Projects } from "@/components/projects/Projects";
 import { Footer } from "@/components/Footer";
-import { About } from "@/components/About";
-import { Experience } from "@/components/experience/Experience";
-import { CurrentWork } from "@/components/CurrentWork";
-import { PastWork } from "@/components/PastWork";
-import { experiences, projects } from "data/data";
+import { projects } from "@/data/data";
 
 const ProjectsPage: NextPage = () => (
   <Layout>
@@ -22,7 +17,7 @@ const ProjectsPage: NextPage = () => (
         className="
               w-full self-start text-dark-900"
       >
-        <FadeIn delay={75}>
+        <FadeIn delay={100}>
           <Projects projects={projects} projectsPage={true} />
         </FadeIn>
       </section>

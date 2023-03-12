@@ -11,7 +11,7 @@ export const About = () => {
         and open source.
       </p>
       <p className="mb-5">
-        Currently, I work as a product engineer at{" "}
+        Currently, I'm a product engineer at{" "}
         <Link
           type="color"
           className="text-foyerPurple"
@@ -34,9 +34,7 @@ export const About = () => {
       </p>
 
       <p className="mb-5">
-        Check out my <Link type="basic" href={""} displayName="work" />, and my
-        GitHub <GitHubButton />
-        {". "} If you'd like to chat about software, or would just like to
+        If you'd like to chat about software, or would just like to
         connect, feel free to{" "}
         <Link type="basic" href={`mailto:${email}`} displayName="reach out" />!
       </p>

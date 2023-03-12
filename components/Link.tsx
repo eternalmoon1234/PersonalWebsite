@@ -13,7 +13,7 @@ export const Link: FC<LinkProps> = ({ href, displayName, type, className }) => {
       <span
         className={`${
           type == "color"
-            ? `${className} font-beatriceSemibold `
+            ? `${className} font-beatriceSemibold underline`
             : "underline text-primary-light"
         }`}
       >

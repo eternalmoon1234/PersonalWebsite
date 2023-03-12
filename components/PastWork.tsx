@@ -33,7 +33,7 @@ export const PastWork: FC = () => {
         </li>
 
         <li className={`${verticalSpacing}`}>
-          Won 2nd place at{" "}
+          2nd place at{" "}
           <Link
             type="basic"
             href={lancerHacksUrl}
@@ -43,7 +43,7 @@ export const PastWork: FC = () => {
           platform for collectors to trade physical art.
         </li>
         <li className={`${verticalSpacing}`}>
-          Won 3rd place at{" "}
+          3rd place at{" "}
           <Link
             type="basic"
             href={trivalleyHacksUrl}
@@ -54,7 +54,7 @@ export const PastWork: FC = () => {
           with consumers in their neighborhood.
         </li>
         <li className={`${verticalSpacing}`}>
-          Won 3rd place at{" "}
+          3rd place at{" "}
           <Link
             type="basic"
             href={lancerHacksUrl}
