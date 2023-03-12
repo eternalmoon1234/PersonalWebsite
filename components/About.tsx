@@ -34,8 +34,8 @@ export const About = () => {
       </p>
 
       <p className="mb-5">
-        If you'd like to chat about software, or would just like to
-        connect, feel free to{" "}
+        If you'd like to chat about software, or would just like to connect,
+        feel free to{" "}
         <Link type="basic" href={`mailto:${email}`} displayName="reach out" />!
       </p>
       <p className="mb-5"></p>
