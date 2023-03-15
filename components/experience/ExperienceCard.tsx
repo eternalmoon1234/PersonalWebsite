@@ -1,5 +1,5 @@
-import { ExperienceEntity } from "@/entities/ExperienceEntity";
 import { FC } from "react";
+import { ExperienceEntity } from "@/entities/ExperienceEntity";
 
 export const ExperienceCard: FC<ExperienceEntity> = ({
   title,

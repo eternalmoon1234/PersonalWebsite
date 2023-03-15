@@ -1,9 +1,9 @@
 import { FC } from "react";
-import { ProjectEntity } from "@/entities/ProjectEntity";
 import { HiOutlineArrowNarrowRight as RightArrowButton } from "react-icons/hi";
-import { ProjectCard } from "./ProjectCard";
 import { useRouter } from "next/router";
 import FadeIn from "react-fade-in/lib/FadeIn";
+import { ProjectEntity } from "@/entities/ProjectEntity";
+import { ProjectCard } from "./ProjectCard";
 
 interface ProjectsProps {
   projects: ProjectEntity[];

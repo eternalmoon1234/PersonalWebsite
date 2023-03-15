@@ -1,5 +1,5 @@
-import { ExperienceEntity } from "@/entities/ExperienceEntity";
 import { FC } from "react";
+import { ExperienceEntity } from "@/entities/ExperienceEntity";
 import { ExperienceCard } from "./ExperienceCard";
 
 interface ExperienceProps {

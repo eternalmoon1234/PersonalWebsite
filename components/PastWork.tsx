@@ -1,3 +1,4 @@
+import { FC } from "react";
 import {
   artMartUrl,
   evergreenUrl,
@@ -8,7 +9,6 @@ import {
   verticalSpacing,
   youtubeUrl,
 } from "@/utils/constants";
-import { FC } from "react";
 import { Link } from "./Link";
 
 export const PastWork: FC = () => {

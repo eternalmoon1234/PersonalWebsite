@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { FC } from "react";
 import {
   AiFillLinkedin as LinkedinButton,
   AiFillYoutube as YoutubeButton,
@@ -6,7 +8,6 @@ import {
   AiFillMail as MailButton,
   AiOutlineTwitter as TwitterButton,
 } from "react-icons/ai";
-import { NavbarLink } from "./NavbarLink";
 import {
   linkedinUrl,
   githubUrl,
@@ -15,8 +16,8 @@ import {
   email,
 } from "@/utils/constants";
 import { scrollTo } from "@/utils/scrollTo";
-import { useRouter } from "next/router";
-import { FC } from "react";
+import { NavbarLink } from "./NavbarLink";
+
 
 export const Navbar: FC = () => {
   const router = useRouter();

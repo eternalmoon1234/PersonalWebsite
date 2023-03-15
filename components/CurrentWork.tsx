@@ -1,3 +1,4 @@
+import { FC } from "react";
 import {
   foyerUrl,
   frcUrl,
@@ -6,7 +7,6 @@ import {
   verticalSpacing,
   youtubeUrl,
 } from "@/utils/constants";
-import { FC } from "react";
 import { Link } from "./Link";
 
 export const CurrentWork: FC = () => {

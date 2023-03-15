@@ -1,9 +1,4 @@
-import {
-  foyerUrl,
-  linkedinUrl,
-  tripleyUrl,
-} from "@/utils/constants";
-import { GitHubButton } from "./GitHubButton";
+import { foyerUrl, linkedinUrl, tripleyUrl } from "@/utils/constants";
 import { Link } from "./Link";
 
 export const About = () => {

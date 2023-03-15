@@ -1,6 +1,6 @@
 import { FC } from "react";
-import profilePicture from "../assets/profile_picture.jpeg";
 import Image from "next/image";
+import profilePicture from "../assets/profile_picture.jpeg";
 
 export const Hero: FC = () => {
   return (
