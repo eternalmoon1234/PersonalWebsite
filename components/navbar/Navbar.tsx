@@ -26,11 +26,12 @@ export const Navbar: FC = () => {
       <div className="mx-auto flex w-full max-w-7xl px-5 justify-between">
         <div className="flex items-center space-x-0 text-xs sm:space-x-7 sm:text-lg">
           <Link href="/">
-            <h3 className="font-semibold font-syne">
-              <span className="text-primary-light">g</span>autam{" "}
-              <span className="text-primary-light">p</span>aranjape
+            <h3 className="font-semibold font-syne flex">
+              <span className="text-primary-light">g</span><span className="hidden lg:flex lg:visible lg:pr-1">autam</span>
+              <span className="text-primary-light">p</span><span className="hidden lg:flex lg:visible">aranjape</span> 
             </h3>
           </Link>
+          <div className="space-x-7 hidden lg:flex lg:visible">
           <NavbarLink onClick={() => scrollTo("work")} title="work" />
           <NavbarLink
             onClick={() => router.push("/projects")}
@@ -41,6 +42,7 @@ export const Navbar: FC = () => {
             onClick={() => router.push(`mailto:${email}`)}
             title="contact"
           />
+          </div>
         </div>
         <div className="flex items-center space-x-2 sm:space-x-4">
           <a href={linkedinUrl} target="_blank">

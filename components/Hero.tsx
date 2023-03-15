@@ -8,7 +8,7 @@ export const Hero: FC = () => {
       <Image
         src={profilePicture}
         alt="Profile Image"
-        className="w-3/12 h-3/12 flex justify-start items-start rounded-full"
+        className="w-3/12 h-3/12 justify-start items-start rounded-full hidden lg:flex lg:visible"
       />
       <div>
         <h3 className="text-4xl text-[#5FA8FF] font-beatriceBold">
