@@ -1,6 +1,5 @@
 import { ExperienceEntity } from "@/entities/ExperienceEntity";
 import { FC } from "react";
-import { FiExternalLink as ExternalLink } from "react-icons/fi";
 
 export const ExperienceCard: FC<ExperienceEntity> = ({
   title,

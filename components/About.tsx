@@ -1,7 +1,5 @@
 import {
-  email,
   foyerUrl,
-  githubUrl,
   linkedinUrl,
   tripleyUrl,
 } from "@/utils/constants";
