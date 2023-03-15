@@ -27,21 +27,23 @@ export const Navbar: FC = () => {
         <div className="flex items-center space-x-0 text-xs sm:space-x-7 sm:text-lg">
           <Link href="/">
             <h3 className="font-semibold font-syne flex">
-              <span className="text-primary-light">g</span><span className="hidden lg:flex lg:visible lg:pr-1">autam</span>
-              <span className="text-primary-light">p</span><span className="hidden lg:flex lg:visible">aranjape</span> 
+              <span className="text-primary-light">g</span>
+              <span className="hidden lg:flex lg:visible lg:pr-1">autam</span>
+              <span className="text-primary-light">p</span>
+              <span className="hidden lg:flex lg:visible">aranjape</span>
             </h3>
           </Link>
           <div className="space-x-7 hidden lg:flex lg:visible">
-          <NavbarLink onClick={() => scrollTo("work")} title="work" />
-          <NavbarLink
-            onClick={() => router.push("/projects")}
-            title="projects"
-          />
-          <NavbarLink onClick={() => scrollTo("about")} title="about" />
-          <NavbarLink
-            onClick={() => router.push(`mailto:${email}`)}
-            title="contact"
-          />
+            <NavbarLink onClick={() => scrollTo("work")} title="work" />
+            <NavbarLink
+              onClick={() => router.push("/projects")}
+              title="projects"
+            />
+            <NavbarLink onClick={() => scrollTo("about")} title="about" />
+            <NavbarLink
+              onClick={() => router.push(`mailto:${email}`)}
+              title="contact"
+            />
           </div>
         </div>
         <div className="flex items-center space-x-2 sm:space-x-4">

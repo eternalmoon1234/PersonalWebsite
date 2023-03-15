@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Hero: FC = () => {
   return (
-    <section className="flex justify-center space-x-20" id="hero">
+    <section className="flex justify-center lg:space-x-20" id="hero">
       <Image
         src={profilePicture}
         alt="Profile Image"

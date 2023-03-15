@@ -20,7 +20,7 @@ const IndexPage: NextPage = () => (
     <div className="mx-auto flex w-full max-w-[38rem] flex-col justify-center py-16">
       <section
         className="
-              mt-16 w-full self-start text-dark-900"
+              mt-16 w-full self-start text-dark-900 px-5 lg:px-0"
       >
         <FadeIn delay={100}>
           <Hero />
