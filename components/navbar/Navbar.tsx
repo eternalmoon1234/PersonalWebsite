@@ -18,7 +18,6 @@ import {
 import { scrollTo } from "@/utils/scrollTo";
 import { NavbarLink } from "./NavbarLink";
 
-
 export const Navbar: FC = () => {
   const router = useRouter();
 

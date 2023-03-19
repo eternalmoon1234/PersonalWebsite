@@ -23,6 +23,7 @@ export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
           {projects.map((project) => {
             return (
               <ProjectCard
+                key={project.title}
                 title={project.title}
                 description={project.description}
                 skills={project.skills}

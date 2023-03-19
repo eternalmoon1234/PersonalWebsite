@@ -17,6 +17,7 @@ export const Experience: FC<ExperienceProps> = ({ experiences }) => {
           {experiences.map((experience) => {
             return (
               <ExperienceCard
+                key={experience.title}
                 title={experience.title}
                 organizationColor={experience.organizationColor}
                 organization={experience.organization}
