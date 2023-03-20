@@ -5,12 +5,11 @@ import { foyerUrl, neusleepUrl, tripleyUrl } from "@/utils/constants";
 export const projects: ProjectEntity[] = [
   {
     title: "Tripley",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    skills: "React, TypeScript, TailwindCSS",
+    description: "We're building the all-in-one platform to seamlessly plan & manage your trips. Currently in private alpha.",
+    skills: "Cloud-Native Applications · Express.js · React Native · Docker · PostgreSQL · React.js · Prisma · TypeScript",
     viewLink: "https://google.com",
-    githubLink: "https://github.com",
-    imageUrl:
-      "https://media.licdn.com/dms/image/C562DAQFbz0Fhxv0mSw/profile-treasury-image-shrink_800_800/0/1672799338241?e=1673496000&v=beta&t=jELjtV5W1v-ZEuhUGVOFPNR8Cc36Iyrtvryh8hS3d6M",
+    imageUrl: "https://cdn.sanity.io/images/7ok6rxeh/production/77fc5b25cf36cb948791ba3932bd8011c2d72b8e-1767x985.png?rect=63,0,1642,985&w=500&h=300",
+    openSource: false
   },
   {
     title: "Project 2",
@@ -19,6 +18,7 @@ export const projects: ProjectEntity[] = [
     viewLink: "https://google.com",
     githubLink: "https://github.com",
     imageUrl: "/project2.jpg",
+    openSource: false,
   },
   {
     title: "Project 3",
@@ -27,6 +27,7 @@ export const projects: ProjectEntity[] = [
     viewLink: "https://google.com",
     githubLink: "https://github.com",
     imageUrl: "/project3.jpg",
+    openSource: true,
   },
 ];
 
@@ -48,7 +49,8 @@ export const experiences: ExperienceEntity[] = [
     organizationUrl: tripleyUrl,
     description:
       "Building the all-in-one platform to seamlessly plan & manage your trips.",
-    skills: "Cloud Native · APIs · DevOps · React Native · PostgreSQL · Prisma · TypeScript",
+    skills:
+      "Cloud Native · APIs · DevOps · React Native · PostgreSQL · Prisma · TypeScript",
     dateRange: "May 2022 - Present",
   },
   {
@@ -58,8 +60,7 @@ export const experiences: ExperienceEntity[] = [
     organizationUrl: neusleepUrl,
     description:
       "Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.",
-    skills:
-      "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
+    skills: "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
     dateRange: "Jun 2022 - Oct 2022",
   },
 ];

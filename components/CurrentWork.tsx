@@ -40,8 +40,7 @@ export const CurrentWork: FC = () => {
         </li>
 
         <li className={`${verticalSpacing}`}>
-          Creating practical, useful, and informative videos about tech on my
-          {" "}
+          Creating practical, useful, and informative videos about tech on my{" "}
           <Link type="basic" href={youtubeUrl} displayName="YouTube channel" />
         </li>
         <li className={`${verticalSpacing}`}>

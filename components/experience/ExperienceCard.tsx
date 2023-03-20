@@ -12,7 +12,9 @@ export const ExperienceCard: FC<ExperienceEntity> = ({
 }) => {
   return (
     <div className="lg:flex">
-      <p className="hidden lg:visible lg:flex lg:w-6/12 text-gray-200">{dateRange}</p>
+      <p className="hidden lg:visible lg:flex lg:w-6/12 text-gray-200">
+        {dateRange}
+      </p>
       <div className="flex flex-col col-span-3 space-y-3 w-full">
         <h6 className="text-lg text-white md:text-xl font-beatriceSemibold">
           {title} •{" "}
