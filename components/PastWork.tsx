@@ -19,15 +19,6 @@ export const PastWork: FC = () => {
       </h2>
       <div className="pl-2">
         <li className={`${verticalSpacing}`}>
-          Certified{" "}
-          <Link
-            type="basic"
-            href={ibmFullStackCourseUrl}
-            displayName="IBM Fullstack Software Developer"
-          />
-        </li>
-
-        <li className={`${verticalSpacing}`}>
           Over 115 subscribers and 5K views on my{" "}
           <Link type="basic" href={youtubeUrl} displayName="YouTube channel" />
         </li>

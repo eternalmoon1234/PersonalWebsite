@@ -17,7 +17,7 @@ const IndexPage: NextPage = () => (
       <Navbar />
     </FadeIn>
 
-    <div className="mx-auto flex w-full max-w-[38rem] flex-col justify-center py-16">
+    <div className="mx-auto flex w-full max-w-[45rem] flex-col justify-center py-16">
       <section
         className="
           my-5 w-full self-start text-dark-900 px-5 lg:px-0 lg:mt-16"

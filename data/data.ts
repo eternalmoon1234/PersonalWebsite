@@ -37,8 +37,8 @@ export const experiences: ExperienceEntity[] = [
     organization: "Foyer",
     organizationUrl: foyerUrl,
     description:
-      "Seeing the Merdaugh trial on the news today perked my interest in the case so I watched this DocuSeries tonight…Wow!",
-    skills: "Big Data · Firebase · Node.js · React.js · TypeScript",
+      "Contributed to Merlin, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.",
+    skills: "Firebase · React.js · Plasmo · APIs",
     dateRange: "Jan 2023 - Present",
   },
   {
@@ -47,8 +47,8 @@ export const experiences: ExperienceEntity[] = [
     organization: "Tripley",
     organizationUrl: tripleyUrl,
     description:
-      "Building the all-in-one platform to plan and manage your trips, effectively.",
-    skills: "TS • Node",
+      "Building the all-in-one platform to seamlessly plan & manage your trips.",
+    skills: "Cloud Native · APIs · DevOps · React Native · PostgreSQL · Prisma · TypeScript",
     dateRange: "May 2022 - Present",
   },
   {
@@ -57,9 +57,9 @@ export const experiences: ExperienceEntity[] = [
     organization: "neusleep",
     organizationUrl: neusleepUrl,
     description:
-      "Developed a custom, high-performing internal developer dashboard to assist with clinical studies using the neusleep hardware device.",
+      "Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.",
     skills:
-      "Big Data • Data Analysis • Firebase • Node.js • React.js • TypeScript",
+      "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
     dateRange: "Jun 2022 - Oct 2022",
   },
 ];
