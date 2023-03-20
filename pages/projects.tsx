@@ -12,7 +12,7 @@ const ProjectsPage: NextPage = () => (
       <Navbar />
     </FadeIn>
 
-    <div className="mx-auto flex w-full max-w-[38rem] flex-col justify-center py-10">
+    <div className="mx-auto flex w-full max-w-[45rem] flex-col justify-center py-10">
       <section
         className="
               w-full self-start text-dark-900"

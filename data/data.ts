@@ -15,13 +15,13 @@ export const projects: ProjectEntity[] = [
     openSource: false,
   },
   {
-    title: "Project 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    skills: "React, TypeScript, TailwindCSS",
+    title: "Evergreen",
+    description: "Evergreen is a platform that connects home gardeners and consumers, supplying local produce to the community. Home gardeners can sell their fresh produce to health-conscious consumers, providing high-quality and organic food instead of store-bought produce treated with pesticides.",
+    skills: "TypeScript · Next.js, · TailwindCSS · Prisma · CockroachDB · Google Maps Places API · AWS S3",
     viewLink: "https://google.com",
     githubLink: "https://github.com",
-    imageUrl: "/project2.jpg",
-    openSource: false,
+    imageUrl: "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/993c5091-5100-43a5-bd85-5af8a5b01abd/Screen_Shot_2023-03-07_at_12.26.28_AM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230320%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230320T043422Z&X-Amz-Expires=86400&X-Amz-Signature=08f80765094546e25218175fc56ce7f33a859f556d6e1c03cd1f801c113239f2&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Screen%2520Shot%25202023-03-07%2520at%252012.26.28%2520AM.png%22&x-id=GetObject",
+    openSource: true,
   },
   {
     title: "Project 3",

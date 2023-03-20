@@ -13,7 +13,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   return (
     <div className="w-full bg-[#3166A5] rounded-lg shadow">
       <img
-        className="p-4 object-cover h-[20rem] w-full"
+        className="p-4 object-cover h-[25rem] w-full"
         src={imageUrl}
         alt={`${title} image`}
       />

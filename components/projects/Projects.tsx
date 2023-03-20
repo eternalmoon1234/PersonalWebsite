@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import FadeIn from "react-fade-in/lib/FadeIn";
 import { ProjectEntity } from "@/entities/ProjectEntity";
 import { ProjectCard } from "./ProjectCard";
+import { Link } from "../Link";
 
 interface ProjectsProps {
   projects: ProjectEntity[];
@@ -19,6 +20,7 @@ export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
         {projectsPage ? "projects" : "featured projects"}
       </h2>
       <FadeIn>
+        {projectsPage ? <p className="mb-2">Most of my work is on <Link type="basic" displayName="GitHub" href="https://github.com/eternalmoon1234"/>.</p> : ""}
         <div className="space-y-7">
           {projects.map((project) => {
             return (
