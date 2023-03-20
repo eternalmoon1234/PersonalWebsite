@@ -6,5 +6,5 @@ export interface ProjectEntity {
   description: string;
   skills: string;
 
-  openSource?: boolean
+  openSource?: boolean;
 }

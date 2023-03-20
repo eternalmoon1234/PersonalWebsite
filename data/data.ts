@@ -5,11 +5,14 @@ import { foyerUrl, neusleepUrl, tripleyUrl } from "@/utils/constants";
 export const projects: ProjectEntity[] = [
   {
     title: "Tripley",
-    description: "We're building the all-in-one platform to seamlessly plan & manage your trips. Currently in private alpha.",
-    skills: "Cloud-Native Applications · Express.js · React Native · Docker · PostgreSQL · React.js · Prisma · TypeScript",
+    description:
+      "We're building the all-in-one platform to seamlessly plan & manage your trips. Currently in private alpha.",
+    skills:
+      "Cloud-Native Applications · Express.js · React Native · Docker · PostgreSQL · React.js · Prisma · TypeScript",
     viewLink: "https://google.com",
-    imageUrl: "https://cdn.sanity.io/images/7ok6rxeh/production/77fc5b25cf36cb948791ba3932bd8011c2d72b8e-1767x985.png?rect=63,0,1642,985&w=500&h=300",
-    openSource: false
+    imageUrl:
+      "https://cdn.sanity.io/images/7ok6rxeh/production/77fc5b25cf36cb948791ba3932bd8011c2d72b8e-1767x985.png?rect=63,0,1642,985&w=500&h=300",
+    openSource: false,
   },
   {
     title: "Project 2",
