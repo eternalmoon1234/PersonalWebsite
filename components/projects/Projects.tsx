@@ -22,7 +22,7 @@ export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
       <FadeIn>
         {projectsPage ? (
           <p className="mb-2">
-            Most of my work is on{" "}
+            Most of my work is on my{" "}
             <Link
               type="basic"
               displayName="GitHub"

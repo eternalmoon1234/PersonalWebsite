@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import FadeIn from "react-fade-in";
+import FadeIn from "react-fade-in"
 import { Layout } from "@/components/Layout";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Projects } from "@/components/projects/Projects";

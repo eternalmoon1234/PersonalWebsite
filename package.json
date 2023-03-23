@@ -9,11 +9,13 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.13",
-    "next": "latest",
+    "html-react-parser": "^3.0.12",
+    "next": "^13.2.4",
     "postcss": "^8.4.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fade-in": "^2.0.1",
+    "react-html-parser": "^2.0.2",
     "react-icons": "^4.7.1",
     "tailwindcss": "^3.2.4"
   },
@@ -22,6 +24,7 @@
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "@types/react-html-parser": "^2.0.2",
     "prettier": "^2.8.1",
     "typescript": "^4.8.3"
   }

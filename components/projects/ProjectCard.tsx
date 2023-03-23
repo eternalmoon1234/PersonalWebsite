@@ -2,6 +2,7 @@ import { ProjectEntity as ProjectCardProps } from "@/entities/ProjectEntity";
 import { AiOutlineLink as LinkButton } from "react-icons/ai";
 import { AiFillGithub as GitHubButton } from "react-icons/ai";
 import { FC } from "react";
+import parse from 'html-react-parser'
 
 export const ProjectCard: FC<ProjectCardProps> = ({
   imageUrl,
@@ -34,7 +35,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           ) : null}
         </div>
 
-        <p className="font-beatrice text-white text-sm">{description}</p>
+        <p className="font-beatrice text-white text-sm">{parse(description)}</p>
 
         <p className="text-white text-xs">{skills}</p>
       </div>
