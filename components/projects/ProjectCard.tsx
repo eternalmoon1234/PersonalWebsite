@@ -2,7 +2,7 @@ import { ProjectEntity as ProjectCardProps } from "@/entities/ProjectEntity";
 import { AiOutlineLink as LinkButton } from "react-icons/ai";
 import { AiFillGithub as GitHubButton } from "react-icons/ai";
 import { FC } from "react";
-import parse from 'html-react-parser'
+import parse from "html-react-parser";
 
 export const ProjectCard: FC<ProjectCardProps> = ({
   imageUrl,
@@ -10,6 +10,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   description,
   skills,
   openSource,
+  openSourceNoView,
 }) => {
   return (
     <div className="w-full bg-[#3166A5] rounded-lg shadow">
@@ -21,11 +22,14 @@ export const ProjectCard: FC<ProjectCardProps> = ({
       <div className="px-5 pb-5 space-y-4">
         <div className="flex justify-start items-center space-x-2">
           <h5 className="text-xl font-beatriceMedium text-white">{title}</h5>
-          <LinkButton
-            color="white"
-            size={20}
-            className="hover:cursor-pointer"
-          />
+          {openSourceNoView ? null : (
+            <LinkButton
+              color="white"
+              size={20}
+              className="hover:cursor-pointer"
+            />
+          )}
+
           {openSource ? (
             <GitHubButton
               color="white"

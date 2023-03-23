@@ -7,4 +7,5 @@ export interface ProjectEntity {
   skills: string;
 
   openSource?: boolean;
+  openSourceNoView?: boolean;
 }

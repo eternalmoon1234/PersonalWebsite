@@ -22,18 +22,18 @@ export const projects: ProjectEntity[] = [
       "TypeScript · Next.js, · TailwindCSS · Prisma · CockroachDB · Google Maps Places API · AWS S3",
     viewLink: "https://google.com",
     githubLink: "https://github.com",
-    imageUrl:
-      "https://i.imgur.com/HlBO0QG.png",
+    imageUrl: "https://i.imgur.com/HlBO0QG.png",
     openSource: true,
   },
   {
-    title: "Project 3",
+    title: "Bytecube",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     skills: "React, TypeScript, TailwindCSS",
     viewLink: "https://google.com",
     githubLink: "https://github.com",
-    imageUrl: "/project3.jpg",
-    openSource: true,
+    imageUrl: "https://i.imgur.com/I09f17R.png",
+    openSource: false,
+    openSourceNoView: true,
   },
 ];
 
@@ -43,8 +43,7 @@ export const experiences: ExperienceEntity[] = [
     organizationColor: "foyerPurple",
     organization: "Foyer",
     organizationUrl: foyerUrl,
-    description:
-    '<div>hi</div>',
+    description: "<div>hi</div>",
     skills: "Firebase · React.js · Plasmo · APIs",
     dateRange: "Jan 2023 - Present",
   },

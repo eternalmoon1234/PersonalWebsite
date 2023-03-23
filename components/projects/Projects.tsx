@@ -41,6 +41,7 @@ export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
                 imageUrl={project.imageUrl}
                 githubLink={project.githubLink}
                 openSource={project.openSource}
+                openSourceNoView={project.openSourceNoView}
                 viewLink={project.viewLink}
                 title={project.title}
                 description={project.description}
