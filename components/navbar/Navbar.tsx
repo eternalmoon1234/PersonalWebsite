@@ -38,12 +38,22 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
             </h3>
           </Link>
           <div className="space-x-7 hidden lg:flex lg:visible">
-            <NavbarLink onClick={() => scrollLinks ? scrollTo("work") : router.push("/")} title="work" />
+            <NavbarLink
+              onClick={() =>
+                scrollLinks ? scrollTo("work") : router.push("/")
+              }
+              title="work"
+            />
             <NavbarLink
               onClick={() => router.push("/projects")}
               title="projects"
             />
-            <NavbarLink onClick={() => scrollLinks ? scrollTo("about") : router.push("/")} title="about" />
+            <NavbarLink
+              onClick={() =>
+                scrollLinks ? scrollTo("about") : router.push("/")
+              }
+              title="about"
+            />
             <NavbarLink
               onClick={() => router.push(`mailto:${email}`)}
               title="contact"

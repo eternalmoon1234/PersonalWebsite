@@ -14,11 +14,12 @@ export const ProjectCard: FC<ProjectCardProps> = ({
 }) => {
   return (
     <div className="w-full bg-[#3166A5] rounded-lg shadow">
-      <img
+      {imageUrl ?       <img
         className="p-4 object-cover h-[25rem] w-full"
         src={imageUrl}
         alt={`${title} image`}
-      />
+      /> : <div className="p-2"></div>}
+
       <div className="px-5 pb-5 space-y-4">
         <div className="flex justify-start items-center space-x-2">
           <h5 className="text-xl font-beatriceMedium text-white">{title}</h5>

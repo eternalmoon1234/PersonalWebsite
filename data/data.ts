@@ -16,7 +16,8 @@ export const projects: ProjectEntity[] = [
   },
   {
     title: "neusleep developer dashboard",
-    description: "A custom, high-performing internal developer dashboard built for neusleep, to assist with clinical studies for their hardware device.",
+    description:
+      "A custom, high-performing internal developer dashboard built for neusleep, to assist with clinical studies for their hardware device.",
     skills: "C++ · TypeScript · Express · Prisma",
     githubLink: "https://github.com/Bytecube-Packages/Bytecube",
   },
@@ -33,7 +34,8 @@ export const projects: ProjectEntity[] = [
   },
   {
     title: "Bytecube",
-    description: "Bytecube is an open-source and cross-platform package manager that streamlines software development, deployment, and discovery. Built during the 2021 Hashnode x Auth0 hackathon.",
+    description:
+      "Bytecube is an open-source and cross-platform package manager that streamlines software development, deployment, and discovery. Built during the 2021 Hashnode x Auth0 hackathon.",
     skills: "C++ · TypeScript · Express · Prisma",
     githubLink: "https://github.com/Bytecube-Packages/Bytecube",
     imageUrl: "https://i.imgur.com/I09f17R.png",

@@ -9,7 +9,7 @@ import { projects } from "@/data/data";
 const ProjectsPage: NextPage = () => (
   <Layout>
     <FadeIn>
-      <Navbar scrollLinks={false}/>
+      <Navbar scrollLinks={false} />
     </FadeIn>
 
     <div className="mx-auto flex w-full max-w-[45rem] flex-col justify-center py-10">
