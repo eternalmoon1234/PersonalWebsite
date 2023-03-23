@@ -18,7 +18,11 @@ import {
 import { scrollTo } from "@/utils/scrollTo";
 import { NavbarLink } from "./NavbarLink";
 
-export const Navbar: FC = () => {
+interface NavbarProps {
+  scrollLinks?: boolean;
+}
+
+export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
   const router = useRouter();
 
   return (
@@ -34,12 +38,12 @@ export const Navbar: FC = () => {
             </h3>
           </Link>
           <div className="space-x-7 hidden lg:flex lg:visible">
-            <NavbarLink onClick={() => scrollTo("work")} title="work" />
+            <NavbarLink onClick={() => scrollLinks ? scrollTo("work") : router.push("/")} title="work" />
             <NavbarLink
               onClick={() => router.push("/projects")}
               title="projects"
             />
-            <NavbarLink onClick={() => scrollTo("about")} title="about" />
+            <NavbarLink onClick={() => scrollLinks ? scrollTo("about") : router.push("/")} title="about" />
             <NavbarLink
               onClick={() => router.push(`mailto:${email}`)}
               title="contact"

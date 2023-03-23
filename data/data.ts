@@ -9,10 +9,16 @@ export const projects: ProjectEntity[] = [
       "We're building the all-in-one platform to seamlessly plan & manage your trips. Currently in private alpha.",
     skills:
       "Cloud-Native Applications · Express.js · React Native · Docker · PostgreSQL · React.js · Prisma · TypeScript",
-    viewLink: "https://google.com",
+    viewLink: "https://tripley.app",
     imageUrl:
       "https://cdn.sanity.io/images/7ok6rxeh/production/77fc5b25cf36cb948791ba3932bd8011c2d72b8e-1767x985.png?rect=63,0,1642,985&w=500&h=300",
     openSource: false,
+  },
+  {
+    title: "neusleep developer dashboard",
+    description: "A custom, high-performing internal developer dashboard built for neusleep, to assist with clinical studies for their hardware device.",
+    skills: "C++ · TypeScript · Express · Prisma",
+    githubLink: "https://github.com/Bytecube-Packages/Bytecube",
   },
   {
     title: "Evergreen",
@@ -20,19 +26,18 @@ export const projects: ProjectEntity[] = [
       "Evergreen is a platform that connects home gardeners and consumers, supplying local produce to the community. Home gardeners can sell their fresh produce to health-conscious consumers, providing high-quality and organic food instead of store-bought produce treated with pesticides.",
     skills:
       "TypeScript · Next.js, · TailwindCSS · Prisma · CockroachDB · Google Maps Places API · AWS S3",
-    viewLink: "https://google.com",
-    githubLink: "https://github.com",
+    viewLink: "https://evergreen-app.vercel.app/",
+    githubLink: "https://github.com/ShubhamPatilsd/evergreen",
     imageUrl: "https://i.imgur.com/HlBO0QG.png",
     openSource: true,
   },
   {
     title: "Bytecube",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    skills: "React, TypeScript, TailwindCSS",
-    viewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: "Bytecube is an open-source and cross-platform package manager that streamlines software development, deployment, and discovery. Built during the 2021 Hashnode x Auth0 hackathon.",
+    skills: "C++ · TypeScript · Express · Prisma",
+    githubLink: "https://github.com/Bytecube-Packages/Bytecube",
     imageUrl: "https://i.imgur.com/I09f17R.png",
-    openSource: false,
+    openSource: true,
     openSourceNoView: true,
   },
 ];
