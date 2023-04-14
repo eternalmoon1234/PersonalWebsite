@@ -1,5 +1,5 @@
 import { FC } from "react";
-import parse from 'react-html-parser'
+import parse from "react-html-parser";
 import { ExperienceEntity } from "@/entities/ExperienceEntity";
 
 export const ExperienceCard: FC<ExperienceEntity> = ({

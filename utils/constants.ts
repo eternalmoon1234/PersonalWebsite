@@ -24,4 +24,4 @@ export const geochattrUrl: string = "";
 
 export const hackathons = {
   lancerHacksUrl: "",
-}
+};
