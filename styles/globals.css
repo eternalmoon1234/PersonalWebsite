@@ -92,4 +92,13 @@
     @apply text-white;
     @apply font-beatrice;
   }
+
+  span {
+    @apply text-white;
+    @apply font-beatrice;
+  }
+
+  #description {
+    @apply text-sm;
+  }
 }

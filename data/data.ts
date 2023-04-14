@@ -63,7 +63,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "Foyer",
     organizationUrl: foyerUrl,
     description:
-      "<span>Contributed to <strong>Merlin</strong>, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.</span>",
+      '<span id="description">Contributed to <strong>Merlin</strong>, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.</span>',
     skills: "Firebase · React.js · Plasmo · APIs",
     dateRange: "Jan 2023 - Present",
   },
@@ -73,7 +73,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "Tripley",
     organizationUrl: tripleyUrl,
     description:
-      "<span>Building the all-in-one platform to seamlessly plan & manage your trips.</span>",
+      '<span id="description">Building the all-in-one platform to seamlessly plan & manage your trips.</span>',
     skills:
       "Cloud Native · APIs · DevOps · React Native · PostgreSQL · Prisma · TypeScript",
     dateRange: "May 2022 - Present",
@@ -84,7 +84,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "neusleep",
     organizationUrl: neusleepUrl,
     description:
-      "<span>Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.</span>",
+      '<span id="description">Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.</span>',
     skills: "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
     dateRange: "Jun 2022 - Oct 2022",
   },
