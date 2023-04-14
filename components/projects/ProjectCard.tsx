@@ -29,23 +29,26 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           <h5 className="text-xl font-beatriceMedium text-white">{title}</h5>
           {console.log(viewLink)}
           {viewLink != undefined ? (
-            <LinkButton
-              color="white"
-              href={viewLink}
-              size={20}
-              className="hover:cursor-pointer"
-            />
+            <a href={viewLink} target="_blank">
+              <LinkButton
+                color="white"
+                size={20}
+                className="hover:cursor-pointer"
+              />
+            </a>
           ) : (
             ""
           )}
 
           {githubLink != undefined ? (
-            <GitHubButton
-              color="white"
-              href={githubLink}
-              size={20}
-              className="hover:cursor-pointer"
-            />
+            <a href={githubLink} target="_blank">
+              <GitHubButton
+                color="white"
+                href={githubLink}
+                size={20}
+                className="hover:cursor-pointer"
+              />
+            </a>
           ) : (
             ""
           )}
