@@ -9,8 +9,8 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   title,
   description,
   skills,
-  openSource,
-  openSourceNoView,
+  githubLink,
+  viewLink,
 }) => {
   return (
     <div className="w-full bg-[#3166A5] rounded-lg shadow">
@@ -27,21 +27,28 @@ export const ProjectCard: FC<ProjectCardProps> = ({
       <div className="px-5 pb-5 space-y-4">
         <div className="flex justify-start items-center space-x-2">
           <h5 className="text-xl font-beatriceMedium text-white">{title}</h5>
-          {openSourceNoView ? null : (
+          {console.log(viewLink)}
+          {viewLink != undefined ? (
             <LinkButton
               color="white"
+              href={viewLink}
               size={20}
               className="hover:cursor-pointer"
             />
+          ) : (
+            ""
           )}
 
-          {openSource ? (
+          {githubLink != undefined ? (
             <GitHubButton
               color="white"
+              href={githubLink}
               size={20}
               className="hover:cursor-pointer"
             />
-          ) : null}
+          ) : (
+            ""
+          )}
         </div>
 
         <p className="font-beatrice text-white text-sm">{parse(description)}</p>
