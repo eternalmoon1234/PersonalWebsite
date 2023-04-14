@@ -8,7 +8,7 @@ import { projects } from "@/data/data";
 
 const ProjectsPage: NextPage = () => (
   <Layout>
-    <FadeIn>
+    <FadeIn delay={100}>
       <Navbar scrollLinks={false} />
     </FadeIn>
 
