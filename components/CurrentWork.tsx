@@ -48,7 +48,7 @@ export const CurrentWork: FC = () => {
           <Link
             type="basic"
             href={frcUrl}
-            displayName="First Robotics Competition"
+            displayName="FIRST Robotics Competition"
           />{" "}
           <Link
             type="color"
