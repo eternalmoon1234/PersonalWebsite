@@ -13,7 +13,7 @@ import { experiences, projects } from "@/data/data";
 
 const IndexPage: NextPage = () => (
   <Layout>
-    <FadeIn>
+    <FadeIn delay={140}>
       <Navbar />
     </FadeIn>
 
@@ -22,13 +22,13 @@ const IndexPage: NextPage = () => (
         className="
           my-5 w-full self-start text-dark-900 px-5 lg:px-0 lg:mt-16"
       >
-        <FadeIn delay={100}>
+        <FadeIn delay={140}>
           <Hero />
           <About />
           <Experience experiences={experiences} />
         </FadeIn>
         <Projects projects={projects} projectsPage={false} />
-        <FadeIn delay={100}>
+        <FadeIn delay={140}>
           <CurrentWork />
           <PastWork />
         </FadeIn>

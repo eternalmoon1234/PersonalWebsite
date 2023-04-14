@@ -19,7 +19,7 @@ export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
       <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
         {projectsPage ? "projects" : "featured projects"}
       </h2>
-      <FadeIn delay={100}>
+      <FadeIn delay={140}>
         {projectsPage ? (
           <p className="mb-2">
             Most of my work is on my{" "}
