@@ -21,3 +21,7 @@ export const trivalleyHacksUrl: string = "";
 export const artMartUrl: string = "";
 export const evergreenUrl: string = "";
 export const geochattrUrl: string = "";
+
+export const hackathons = {
+  lancerHacksUrl: "",
+}

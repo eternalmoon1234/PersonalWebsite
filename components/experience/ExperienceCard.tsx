@@ -1,4 +1,5 @@
 import { FC } from "react";
+import parse from 'react-html-parser'
 import { ExperienceEntity } from "@/entities/ExperienceEntity";
 
 export const ExperienceCard: FC<ExperienceEntity> = ({
@@ -25,7 +26,7 @@ export const ExperienceCard: FC<ExperienceEntity> = ({
           </a>
         </h6>
         <p className="text-sm lg:hidden">{dateRange}</p>
-        <p className="text-sm">{description}</p>
+        {parse(description)}
         <p className="text-xs text-primary-extraLight">{skills}</p>
       </div>
     </div>

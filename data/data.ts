@@ -33,6 +33,16 @@ export const projects: ProjectEntity[] = [
     openSource: true,
   },
   {
+    title: "Pindrop",
+    description:
+      "Pindrop is a powerful, hyper-fast FRC robot localization library that utilizes AprilTags to precisely locate robots. It is designed to work seamlessly with a variety of co-processors and cameras, making it a simple, powerful, and versatile choice for teams of all sizes. ",
+    skills:
+      "TypeScript · Next.js, · TailwindCSS · Prisma · CockroachDB · Google Maps Places API · AWS S3",
+    githubLink: "https://github.com/eternalmoon1234/pindrop",
+    openSource: true,
+    openSourceNoView: true,
+  },
+  {
     title: "Bytecube",
     description:
       "Bytecube is an open-source and cross-platform package manager that streamlines software development, deployment, and discovery. Built during the 2021 Hashnode x Auth0 hackathon.",
@@ -42,6 +52,17 @@ export const projects: ProjectEntity[] = [
     openSource: true,
     openSourceNoView: true,
   },
+  {
+    title: "ArtMart",
+    description:
+      "ArtMart is a web app that brings together a diverse community of passionate art enthusiasts and enables them to share and trade their collected pieces.",
+    skills:
+      "TypeScript · Next.js · Next.js API · TailwindCSS · CockroachDB · Prisma",
+    githubLink: "https://github.com/ShubhamPatilsd/artmart",
+    imageUrl: "https://i.imgur.com/mQPgEwc.png",
+    openSource: true,
+    openSourceNoView: false,
+  },
 ];
 
 export const experiences: ExperienceEntity[] = [
@@ -50,7 +71,7 @@ export const experiences: ExperienceEntity[] = [
     organizationColor: "foyerPurple",
     organization: "Foyer",
     organizationUrl: foyerUrl,
-    description: "<div>hi</div>",
+    description: '<span>Contributed to <strong>Merlin</strong>, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.</span>',
     skills: "Firebase · React.js · Plasmo · APIs",
     dateRange: "Jan 2023 - Present",
   },
@@ -60,7 +81,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "Tripley",
     organizationUrl: tripleyUrl,
     description:
-      "Building the all-in-one platform to seamlessly plan & manage your trips.",
+      '<span>Building the all-in-one platform to seamlessly plan & manage your trips.</span>',
     skills:
       "Cloud Native · APIs · DevOps · React Native · PostgreSQL · Prisma · TypeScript",
     dateRange: "May 2022 - Present",
@@ -71,7 +92,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "neusleep",
     organizationUrl: neusleepUrl,
     description:
-      "Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.",
+      '<span>Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.</span>',
     skills: "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
     dateRange: "Jun 2022 - Oct 2022",
   },
