@@ -1,28 +1,48 @@
-// Contacts
-export const linkedinUrl: string = "https://linkedin.com/in/gparanjape";
-export const githubUrl: string = "https://github.com/eternalmoon1234";
-export const youtubeUrl: string =
-  "https://www.youtube.com/channel/UCylERzQ4X5gm58R-erHdmBg";
-export const email: string = "gautamparanjape8@gmail.com";
-export const twitterUrl: string = "https://twitter.com/gautamparanjape";
+export const constants = {
+  verticalSpacing: "mb-2",
 
-// Other
-export const foyerUrl: string = "https://foyer.work";
-export const tripleyUrl: string = "https://tripley.app";
-export const neusleepUrl: string = "https://neusleep.com";
-export const frcUrl: string = "https://www.firstinspires.org/robotics/frc";
-export const team5940Url: string = "https://www.team5940.org/";
-export const ibmFullStackCourseUrl: string =
-  "https://www.coursera.org/account/accomplishments/specialization/certificate/4NC58UHKD2WZ";
-export const verticalSpacing = "mb-2";
+  contacts: {
+    linkedin: "https://linkedin.com/in/gparanjape",
+    github: "https://github.com/eternalmoon1234",
+    youtube: "https://www.youtube.com/channel/UCylERzQ4X5gm58R-erHdmBg",
+    email: "gautamparanjape8@gmail.com",
+    twitter: "https://twitter.com/gautamparanjape",
+  },
 
-// Hackathons
-export const lancerHacksUrl: string = "https://lancerhacks.com/";
-export const trivalleyHacksUrl: string = "";
-export const artMartUrl: string = "";
-export const evergreenUrl: string = "";
-export const geochattrUrl: string = "";
+  companies: {
+    neusleep: "https://neusleep.com",
+    foyer: "https://foyer.com",
+    tripley: "https://tripley.app",
+  },
 
-export const hackathons = {
-  lancerHacksUrl: "",
+  robotics: {
+    frc: "https://www.firstinspires.org/robotics/frc",
+    team5940: "https://www.team5940.org/",
+  },
+
+  hackathons: {
+    lancerhacks: {
+      url: "https://lancerhacks.com/",
+
+      2022: {
+        projectUrl: "https://geochattr.netlify.app/",
+      },
+
+      2023: {
+        projectUrl: "https://artmart.vercel.app/",
+      },
+    },
+    trivalleyhacks: {
+      url: "https://www.trivalleyhacks.org/",
+
+      2022: {
+        projectUrl: "https://evergreen-app.vercel.app/",
+      },
+    },
+  },
+
+  certifications: {
+    ibmFullStackSweDev:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/4NC58UHKD2WZ",
+  },
 };

@@ -1,12 +1,5 @@
 import { FC } from "react";
-import {
-  foyerUrl,
-  frcUrl,
-  team5940Url,
-  tripleyUrl,
-  verticalSpacing,
-  youtubeUrl,
-} from "@/utils/constants";
+import { constants } from "@/utils/constants";
 import { Link } from "./Link";
 
 export const CurrentWork: FC = () => {
@@ -16,46 +9,51 @@ export const CurrentWork: FC = () => {
         currently, i'm
       </h2>
       <div className="pl-3">
-        <li className={`${verticalSpacing}`}>
+        <li className={`${constants.verticalSpacing}`}>
           Working as a product engineer at{" "}
           <Link
             type="color"
             className="text-foyerPurple"
-            href={foyerUrl}
+            href={constants.companies.foyer}
             displayName="Foyer"
           />
           , helping maximize the performance of engineering teams.
         </li>
 
-        <li className={`${verticalSpacing}`}>
+        <li className={`${constants.verticalSpacing}`}>
           Building{" "}
           <Link
             type="color"
             className="text-tripleyBlue"
-            href={tripleyUrl}
+            href={constants.companies.tripley}
             displayName="Tripley"
           />
           , a mobile app that enables travelers to plan and manage their trips
           effectively.
         </li>
 
-        <li className={`${verticalSpacing}`}>
+        <li className={`${constants.verticalSpacing}`}>
           Creating practical, useful, and informative videos about tech on my{" "}
-          <Link type="basic" href={youtubeUrl} displayName="YouTube channel" />
+          <Link
+            type="basic"
+            href={constants.contacts.youtube}
+            displayName="YouTube channel"
+          />
         </li>
-        <li className={`${verticalSpacing}`}>
+        <li className={`${constants.verticalSpacing}`}>
           Software sub-team member in{" "}
           <Link
             type="basic"
-            href={frcUrl}
+            href={constants.robotics.frc}
             displayName="FIRST Robotics Competition"
           />{" "}
           <Link
             type="color"
             className="text-team5940Red underline"
-            href={team5940Url}
+            href={constants.robotics.team5940}
             displayName="Team 5940"
-          />.
+          />
+          .
         </li>
       </div>
     </section>

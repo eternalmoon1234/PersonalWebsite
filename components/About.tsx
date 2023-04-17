@@ -1,4 +1,4 @@
-import { foyerUrl, linkedinUrl, tripleyUrl } from "@/utils/constants";
+import { constants } from "@/utils/constants";
 import { Link } from "./Link";
 
 export const About = () => {
@@ -14,7 +14,7 @@ export const About = () => {
         <Link
           type="color"
           className="text-foyerPurple"
-          href={foyerUrl}
+          href={constants.companies.foyer}
           displayName="Foyer"
         />
         , helping maximize the performance of engineering teams.
@@ -25,7 +25,7 @@ export const About = () => {
         <Link
           type="color"
           className="text-tripleyBlue"
-          href={tripleyUrl}
+          href={constants.companies.tripley}
           displayName="Tripley"
         />
         , a mobile app that enables travelers to plan and manage their trips
@@ -35,7 +35,12 @@ export const About = () => {
       <p className="mb-5">
         If you'd like to chat about software, or would just like to connect,
         feel free to{" "}
-        <Link type="basic" href={linkedinUrl} displayName="reach out" />!
+        <Link
+          type="basic"
+          href={constants.contacts.email}
+          displayName="reach out"
+        />
+        !
       </p>
       <p className="mb-5"></p>
     </section>

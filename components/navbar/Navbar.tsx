@@ -8,15 +8,9 @@ import {
   AiFillMail as MailButton,
   AiOutlineTwitter as TwitterButton,
 } from "react-icons/ai";
-import {
-  linkedinUrl,
-  githubUrl,
-  youtubeUrl,
-  twitterUrl,
-  email,
-} from "@/utils/constants";
 import { scrollTo } from "@/utils/scrollTo";
 import { NavbarLink } from "./NavbarLink";
+import { constants } from "@/utils/constants";
 
 interface NavbarProps {
   scrollLinks?: boolean;
@@ -55,25 +49,25 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
               title="about"
             />
             <NavbarLink
-              onClick={() => router.push(`mailto:${email}`)}
+              onClick={() => router.push(`mailto:${constants.contacts.email}`)}
               title="contact"
             />
           </div>
         </div>
         <div className="flex items-center space-x-2 sm:space-x-4">
-          <a href={linkedinUrl} target="_blank">
+          <a href={constants.contacts.linkedin} target="_blank">
             <LinkedinButton color="white" size={30} />
           </a>
-          <a href={githubUrl} target="_blank">
+          <a href={constants.contacts.github} target="_blank">
             <GithubButton color="white" size={30} />
           </a>
-          <a href={youtubeUrl} target="_blank">
+          <a href={constants.contacts.youtube} target="_blank">
             <YoutubeButton color="white" size={30} />
           </a>
-          <a href={twitterUrl} target="_blank">
+          <a href={constants.contacts.twitter} target="_blank">
             <TwitterButton color="white" size={30} />
           </a>
-          <a href={`mailto:${email}`}>
+          <a href={`mailto:${constants.contacts.email}`}>
             <MailButton color="white" size={30} />
           </a>
         </div>

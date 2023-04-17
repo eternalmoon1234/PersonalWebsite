@@ -1,6 +1,6 @@
 import { ExperienceEntity } from "@/entities/ExperienceEntity";
 import { ProjectEntity } from "@/entities/ProjectEntity";
-import { foyerUrl, neusleepUrl, tripleyUrl } from "@/utils/constants";
+import { constants } from "@/utils/constants";
 
 export const projects: ProjectEntity[] = [
   {
@@ -9,7 +9,7 @@ export const projects: ProjectEntity[] = [
       "We're building the all-in-one platform to seamlessly plan & manage your trips. Currently in private alpha.",
     skills:
       "Cloud-Native Applications · Express.js · React Native · Docker · PostgreSQL · React.js · Prisma · TypeScript",
-    viewLink: "https://tripley.app",
+    viewLink: constants.companies.tripley,
     imageUrl:
       "https://cdn.sanity.io/images/7ok6rxeh/production/77fc5b25cf36cb948791ba3932bd8011c2d72b8e-1767x985.png?rect=63,0,1642,985&w=500&h=300",
   },
@@ -61,7 +61,7 @@ export const experiences: ExperienceEntity[] = [
     title: "Product Engineer",
     organizationColor: "foyerPurple",
     organization: "Foyer",
-    organizationUrl: foyerUrl,
+    organizationUrl: constants.companies.foyer,
     description:
       "Contributed to Merlin, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.",
     skills: "Firebase · React.js · Plasmo · APIs",
@@ -71,7 +71,7 @@ export const experiences: ExperienceEntity[] = [
     title: "Co-Founder",
     organizationColor: "tripleyBlue",
     organization: "Tripley",
-    organizationUrl: tripleyUrl,
+    organizationUrl: constants.companies.tripley,
     description:
       "Building the all-in-one platform to seamlessly plan & manage your trips.",
     skills:
@@ -82,7 +82,7 @@ export const experiences: ExperienceEntity[] = [
     title: "Software Engineer",
     organizationColor: "gray-200",
     organization: "neusleep",
-    organizationUrl: neusleepUrl,
+    organizationUrl: constants.companies.neusleep,
     description:
       "Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.",
     skills: "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
