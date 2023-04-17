@@ -1,6 +1,6 @@
-import { FC } from "react";
-import parse from "react-html-parser";
+import { FC, Fragment } from "react";
 import { ExperienceEntity } from "@/entities/ExperienceEntity";
+import { Spacer } from "@/components/Spacer";
 
 export const ExperienceCard: FC<ExperienceEntity> = ({
   title,
@@ -11,6 +11,9 @@ export const ExperienceCard: FC<ExperienceEntity> = ({
   skills,
   dateRange,
 }) => {
+  const spacedDescription = description.replace(/\n/g, "<Spacer />");
+  const parts = spacedDescription.split(/<Spacer \/>/);
+
   return (
     <div className="lg:flex">
       <p className="hidden lg:visible lg:flex lg:w-6/12 text-gray-200">
@@ -26,7 +29,12 @@ export const ExperienceCard: FC<ExperienceEntity> = ({
           </a>
         </h6>
         <p className="text-sm lg:hidden">{dateRange}</p>
-        {parse(description)}
+        {parts.map((part, index) => (
+          <Fragment key={index}>
+            <p className="text-sm text-white">{part}</p>
+            {index < parts.length - 1 && <Spacer />}
+          </Fragment>
+        ))}
         <p className="text-xs text-primary-extraLight">{skills}</p>
       </div>
     </div>

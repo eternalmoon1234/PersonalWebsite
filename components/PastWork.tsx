@@ -24,6 +24,11 @@ export const PastWork: FC = () => {
         </li>
 
         <li className={`${verticalSpacing}`}>
+          Certified{" "}
+          <Link type="basic" href={ibmFullStackCourseUrl} displayName="IBM Full Stack Software Developer" />.
+        </li>
+
+        <li className={`${verticalSpacing}`}>
           2nd place at{" "}
           <Link
             type="basic"

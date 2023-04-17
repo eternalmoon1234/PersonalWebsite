@@ -33,7 +33,7 @@ export const projects: ProjectEntity[] = [
     title: "Pindrop",
     description:
       "Pindrop is a powerful, hyper-fast robot localization library that utilizes AprilTags to precisely locate robots. It is designed to work seamlessly with a variety of co-processors and cameras, making it a simple, powerful, and versatile vision solution.",
-    skills: "Rus · AprilTags · Co-processors · Computer Vision",
+    skills: "Rust · AprilTags · Co-processors · Computer Vision",
     githubLink: "https://github.com/eternalmoon1234/pindrop",
   },
   {
@@ -63,7 +63,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "Foyer",
     organizationUrl: foyerUrl,
     description:
-      '<span id="description">Contributed to <strong>Merlin</strong>, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.</span>',
+      'Contributed to Merlin, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.',
     skills: "Firebase · React.js · Plasmo · APIs",
     dateRange: "Jan 2023 - Present",
   },
@@ -73,7 +73,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "Tripley",
     organizationUrl: tripleyUrl,
     description:
-      '<span id="description">Building the all-in-one platform to seamlessly plan & manage your trips.</span>',
+      'Building the all-in-one platform to seamlessly plan & manage your trips.',
     skills:
       "Cloud Native · APIs · DevOps · React Native · PostgreSQL · Prisma · TypeScript",
     dateRange: "May 2022 - Present",
@@ -84,7 +84,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "neusleep",
     organizationUrl: neusleepUrl,
     description:
-      '<span id="description">Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.</span>',
+      'Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.',
     skills: "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
     dateRange: "Jun 2022 - Oct 2022",
   },

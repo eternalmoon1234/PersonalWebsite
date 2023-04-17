@@ -27,7 +27,7 @@ const IndexPage: NextPage = () => (
           <About />
           <Experience experiences={experiences} />
         </FadeIn>
-        <Projects projects={projects} projectsPage={false} />
+        <Projects projects={projects.slice(0, 3)} projectsPage={false} />
         <FadeIn delay={140}>
           <CurrentWork />
           <PastWork />
