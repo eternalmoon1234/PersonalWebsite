@@ -55,7 +55,7 @@ export const CurrentWork: FC = () => {
             className="text-team5940Red underline"
             href={team5940Url}
             displayName="Team 5940"
-          />
+          />.
         </li>
       </div>
     </section>

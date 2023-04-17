@@ -29,12 +29,14 @@ export const ExperienceCard: FC<ExperienceEntity> = ({
           </a>
         </h6>
         <p className="text-sm lg:hidden">{dateRange}</p>
-        {parts.map((part, index) => (
-          <Fragment key={index}>
-            <p className="text-sm text-white">{part}</p>
-            {index < parts.length - 1 && <Spacer />}
-          </Fragment>
-        ))}
+        <p className="font-beatrice text-white text-sm">
+          {parts.map((part, index) => (
+            <Fragment key={index}>
+              <p className="text-sm text-white">{part}</p>
+              {index < parts.length - 1 && <Spacer />}
+            </Fragment>
+          ))}
+        </p>
         <p className="text-xs text-primary-extraLight">{skills}</p>
       </div>
     </div>

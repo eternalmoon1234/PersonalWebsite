@@ -1,8 +1,9 @@
 import { ProjectEntity as ProjectCardProps } from "@/entities/ProjectEntity";
 import { AiOutlineLink as LinkButton } from "react-icons/ai";
 import { AiFillGithub as GitHubButton } from "react-icons/ai";
-import { FC } from "react";
+import { FC, Fragment } from "react";
 import parse from "html-react-parser";
+import { Spacer } from "../Spacer";
 
 export const ProjectCard: FC<ProjectCardProps> = ({
   imageUrl,
@@ -12,6 +13,9 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   githubLink,
   viewLink,
 }) => {
+  const spacedDescription = description.replace(/\n/g, "<Spacer />");
+  const parts = spacedDescription.split(/<Spacer \/>/);
+
   return (
     <div className="w-full bg-[#3166A5] rounded-lg shadow">
       {imageUrl ? (
@@ -54,7 +58,15 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           )}
         </div>
 
-        <p className="font-beatrice text-white text-sm">{parse(description)}</p>
+        <p className="font-beatrice text-white text-sm">
+          {" "}
+          {parts.map((part, index) => (
+            <Fragment key={index}>
+              <p className="text-sm text-white">{part}</p>
+              {index < parts.length - 1 && <Spacer />}
+            </Fragment>
+          ))}
+        </p>
 
         <p className="text-white text-xs">{skills}</p>
       </div>

@@ -12,7 +12,8 @@ export const tripleyUrl: string = "https://tripley.app";
 export const neusleepUrl: string = "https://neusleep.com";
 export const frcUrl: string = "https://www.firstinspires.org/robotics/frc";
 export const team5940Url: string = "https://www.team5940.org/";
-export const ibmFullStackCourseUrl: string = "https://www.coursera.org/account/accomplishments/specialization/certificate/4NC58UHKD2WZ";
+export const ibmFullStackCourseUrl: string =
+  "https://www.coursera.org/account/accomplishments/specialization/certificate/4NC58UHKD2WZ";
 export const verticalSpacing = "mb-2";
 
 // Hackathons
