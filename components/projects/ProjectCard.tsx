@@ -31,7 +31,6 @@ export const ProjectCard: FC<ProjectCardProps> = ({
       <div className="px-5 pb-5 space-y-4">
         <div className="flex justify-start items-center space-x-2">
           <h5 className="text-xl font-beatriceMedium text-white">{title}</h5>
-          {console.log(viewLink)}
           {viewLink != undefined ? (
             <a href={viewLink} target="_blank">
               <LinkButton

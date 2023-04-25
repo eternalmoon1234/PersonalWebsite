@@ -11,7 +11,7 @@ export const constants = {
 
   companies: {
     neusleep: "https://neusleep.com",
-    foyer: "https://foyer.com",
+    foyer: "https://foyer.work",
     tripley: "https://tripley.app",
   },
 
