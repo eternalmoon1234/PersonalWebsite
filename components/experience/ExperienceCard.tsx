@@ -28,12 +28,12 @@ export const ExperienceCard: FC<ExperienceEntity> = ({
               {organization}
             </span>
             <a href={""} target="_blank">
-                <LinkButton
-                  color="white"
-                  size={20}
-                  className="hover:cursor-pointer"
-                />
-              </a>
+              <LinkButton
+                color="white"
+                size={20}
+                className="hover:cursor-pointer"
+              />
+            </a>
           </a>
         </h6>
         <p className="text-sm lg:hidden">{dateRange}</p>

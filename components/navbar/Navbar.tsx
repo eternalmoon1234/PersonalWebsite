@@ -24,11 +24,11 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
       <div className="mx-auto flex w-full max-w-7xl px-5 justify-between">
         <div className="flex items-center space-x-0 text-xs sm:space-x-7 sm:text-lg">
           <Link href="/">
-            <h3 className="font-semibold font-syne flex">
-              <span className="text-primary-light">g</span>
-              <span className="hidden lg:flex lg:visible lg:pr-1">autam</span>
-              <span className="text-primary-light">p</span>
-              <span className="hidden lg:flex lg:visible">aranjape</span>
+            <h3 className="flex">
+              <span className="text-primary-light font-syne">g</span>
+              <span className="hidden lg:flex lg:visible font-syne lg:pr-1">autam</span>
+              <span className="text-primary-light font-syne">p</span>
+              <span className="hidden lg:flex lg:visible font-syne">aranjape</span>
             </h3>
           </Link>
           <div className="space-x-7 hidden lg:flex lg:visible">
