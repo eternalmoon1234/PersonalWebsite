@@ -11,7 +11,7 @@ export const projects: ProjectEntity[] = [
       "Cloud-Native Applications · Express.js · React Native · Docker · PostgreSQL · React.js · Prisma · TypeScript",
     viewLink: constants.companies.tripley,
     imageUrl:
-      "https://cdn.sanity.io/images/7ok6rxeh/production/77fc5b25cf36cb948791ba3932bd8011c2d72b8e-1767x985.png?rect=63,0,1642,985&w=500&h=300",
+      "https://i.imgur.com/JUDkx7s.png"
   },
   {
     title: "neusleep developer dashboard",

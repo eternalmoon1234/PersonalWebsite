@@ -76,6 +76,7 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
             href={constants.contacts.linkedin}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Linkedin Icon"
           >
             <AiFillLinkedin color="white" size={30} />
           </a>
@@ -83,6 +84,7 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
             href={constants.contacts.github}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Github Icon"
           >
             <AiFillGithub color="white" size={30} />
           </a>
@@ -90,6 +92,7 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
             href={constants.contacts.youtube}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Youtube Icon"
           >
             <AiFillYoutube color="white" size={30} />
           </a>
@@ -97,10 +100,11 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
             href={constants.contacts.twitter}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Twitter Icon"
           >
             <AiOutlineTwitter color="white" size={30} />
           </a>
-          <a href={`mailto:${constants.contacts.email}`}>
+          <a href={`mailto:${constants.contacts.email}`} aria-label="Mail Icon">
             <AiFillMail color="white" size={30} />
           </a>
         </div>

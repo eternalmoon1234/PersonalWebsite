@@ -2,7 +2,7 @@ import { ProjectEntity as ProjectCardProps } from "@/entities/ProjectEntity";
 import { AiOutlineLink as LinkButton } from "react-icons/ai";
 import { AiFillGithub as GitHubButton } from "react-icons/ai";
 import { FC, Fragment } from "react";
-import parse from "html-react-parser";
+import Image from "next/image";
 import { Spacer } from "../Spacer";
 
 export const ProjectCard: FC<ProjectCardProps> = ({
@@ -19,20 +19,22 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   return (
     <div className="w-full bg-[#3166A5] rounded-lg shadow">
       {imageUrl ? (
-        <img
+        <Image
           className="p-4 object-cover h-[25rem] w-full"
           src={imageUrl}
           alt={`${title} image`}
+          width={800}
+          height={800}
         />
       ) : (
-        <div className="p-2"></div>
+        ""
       )}
 
       <div className="px-5 pb-5 space-y-4">
         <div className="flex justify-start items-center space-x-2">
           <h5 className="text-xl font-beatriceMedium text-white">{title}</h5>
           {viewLink != undefined ? (
-            <a href={viewLink} target="_blank">
+            <a href={viewLink} target="_blank" aria-label="Link Icon">
               <LinkButton
                 color="white"
                 size={20}
@@ -44,7 +46,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           )}
 
           {githubLink != undefined ? (
-            <a href={githubLink} target="_blank">
+            <a href={githubLink} target="_blank" aria-label="Github Icon">
               <GitHubButton
                 color="white"
                 href={githubLink}

@@ -7,26 +7,31 @@
 @font-face {
   font-family: "beatrice";
   src: url("../public/fonts/Beatrice_Regular.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-light";
   src: url("../public/fonts/Beatrice-Light.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-medium";
   src: url("../public/fonts/Beatrice-Medium.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-semibold";
   src: url("../public/fonts/Beatrice-Semibold.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-bold";
   src: url("../public/fonts/Beatrice-Bold.otf");
+  font-display: swap;
 }
 
 @layer base {
