@@ -26,23 +26,18 @@ export const ExperienceCard: FC<ExperienceEntity> = ({
           <a href={organizationUrl} target="_blank">
             <span className={`text-${organizationColor} font-beatriceSemibold`}>
               {organization}
-              <LinkButton
-                color="white"
-                size={20}
-                className="hover:cursor-pointer"
-              />
             </span>
           </a>
         </h6>
         <p className="text-sm lg:hidden">{dateRange}</p>
-        <p className="font-beatrice text-white text-sm">
+        <div className="font-beatrice text-white text-sm">
           {parts.map((part, index) => (
             <Fragment key={index}>
               <p className="text-sm text-white">{part}</p>
               {index < parts.length - 1 && <Spacer />}
             </Fragment>
           ))}
-        </p>
+        </div>
         <p className="text-xs text-primary-extraLight">{skills}</p>
       </div>
     </div>

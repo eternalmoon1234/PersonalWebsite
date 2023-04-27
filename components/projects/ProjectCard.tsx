@@ -57,7 +57,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           )}
         </div>
 
-        <p className="font-beatrice text-white text-sm">
+        <div className="font-beatrice text-white text-sm">
           {" "}
           {parts.map((part, index) => (
             <Fragment key={index}>
@@ -65,7 +65,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
               {index < parts.length - 1 && <Spacer />}
             </Fragment>
           ))}
-        </p>
+        </div>
 
         <p className="text-white text-xs">{skills}</p>
       </div>

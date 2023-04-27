@@ -6,7 +6,7 @@ import {
   AiFillYoutube,
   AiFillGithub,
   AiFillMail,
-  AiOutlineTwitter
+  AiOutlineTwitter,
 } from "react-icons/ai";
 import { scrollTo } from "@/utils/scrollTo";
 import { NavbarLink } from "./NavbarLink";
@@ -54,7 +54,10 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
               }}
               title="work"
             />
-            <NavbarLink onClick={() => router.push("/projects")} title="projects" />
+            <NavbarLink
+              onClick={() => router.push("/projects")}
+              title="projects"
+            />
             <NavbarLink
               onClick={() => {
                 if (scrollLinks) {
@@ -69,16 +72,32 @@ export const Navbar: FC<NavbarProps> = ({ scrollLinks }) => {
           </div>
         </div>
         <div className="flex items-center space-x-2 sm:space-x-4">
-          <a href={constants.contacts.linkedin} target="_blank" rel="noopener noreferrer">
+          <a
+            href={constants.contacts.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillLinkedin color="white" size={30} />
           </a>
-          <a href={constants.contacts.github} target="_blank" rel="noopener noreferrer">
+          <a
+            href={constants.contacts.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillGithub color="white" size={30} />
           </a>
-          <a href={constants.contacts.youtube} target="_blank" rel="noopener noreferrer">
+          <a
+            href={constants.contacts.youtube}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillYoutube color="white" size={30} />
           </a>
-          <a href={constants.contacts.twitter} target="_blank" rel="noopener noreferrer">
+          <a
+            href={constants.contacts.twitter}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiOutlineTwitter color="white" size={30} />
           </a>
           <a href={`mailto:${constants.contacts.email}`}>

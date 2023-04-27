@@ -42,7 +42,6 @@ export const About = () => {
         />
         !
       </p>
-      <p className="mb-5"></p>
     </section>
   );
 };
