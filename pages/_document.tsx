@@ -4,29 +4,29 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* <meta
+        <meta
           name="description"
           content="Team FRC 6070 from Glenforest Secondary School"
         />
         <meta
           name="keywords"
-          content="frc,robotics,6070,mississauga,ontario,peel,pdsb"
+          content="gautam,paranjape,portfolio,software,developer"
         />
-        <meta name="og:title" content="Team 6070" />
+        <meta name="og:title" content="Gautam Paranjape" />
         <meta
           name="og:description"
-          content="Team FRC 6070 from Glenforest Secondary School"
+          content="Hey! I'm Gautam, a high school student, passionate about startups, software, and open source."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Team 6070" />
+        <meta name="twitter:title" content="Gautam Paranjape" />
         <meta
           name="twitter:description"
-          content="Team FRC 6070 from Glenforest Secondary School"
+          content="I'm Gautam, a high school student, passionate about startups, software, and open source."
         />
         <meta name="twitter:image" content="/meta-img.png" />
-        <meta name="theme-color" content="#FBBB04" />
-        <link rel="shortcut icon" href="/6070-logo.png" />
-        <meta name="og:image" content="/meta-img.png" /> */}
+        <meta name="theme-color" content="#5FA8FF" />
+        <link rel="shortcut icon" href="/logo.png" />
+        <meta name="og:image" content="/meta-img.png" />
       </Head>
       <body>
         <Main />
