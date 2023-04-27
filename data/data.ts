@@ -10,8 +10,7 @@ export const projects: ProjectEntity[] = [
     skills:
       "Cloud-Native Applications · Express.js · React Native · Docker · PostgreSQL · React.js · Prisma · TypeScript",
     viewLink: constants.companies.tripley,
-    imageUrl:
-      "https://i.imgur.com/JUDkx7s.png"
+    imageUrl: "https://i.imgur.com/JUDkx7s.png",
   },
   {
     title: "neusleep developer dashboard",

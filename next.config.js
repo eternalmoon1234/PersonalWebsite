@@ -1,11 +1,11 @@
 module.exports = {
-    images: {
-      remotePatterns: [
-        {
-            protocol: 'https',
-            hostname: 'i.imgur.com',
-            port: '',
-          },
-      ],
-    },
-  }
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "i.imgur.com",
+        port: "",
+      },
+    ],
+  },
+};
