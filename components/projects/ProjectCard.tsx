@@ -20,7 +20,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
     <div className="w-full bg-[#3166A5] rounded-lg shadow">
       {imageUrl ? (
         <Image
-          className="p-4 object-cover h-[25rem] w-full"
+          className="p-4 object-cover h-[25rem] w-full hidden md:visible"
           src={imageUrl}
           alt={`${title} image`}
           width={800}

@@ -6,7 +6,7 @@
 /* Import Beatrice font */
 @font-face {
   font-family: "beatrice";
-  src: url("/public/fonts/Beatrice_-Regular.otf");
+  src: url("/public/fonts/Beatrice-Regular.otf");
   font-display: swap;
 }
 
