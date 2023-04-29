@@ -16,7 +16,7 @@ export const Projects: FC<ProjectsProps> = ({ projects, projectsPage }) => {
 
   return (
     <section className="rounded-lg mt-12">
-      <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
+      <h2 className="text-2xl mb-2 text-primary-extraLight">
         {projectsPage ? "projects" : "featured projects"}
       </h2>
       <FadeIn delay={140}>

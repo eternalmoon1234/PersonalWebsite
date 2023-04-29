@@ -5,7 +5,7 @@ import { Link } from "./Link";
 export const PastWork: FC = () => {
   return (
     <section className="rounded-lg mt-12">
-      <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">
+      <h2 className="text-2xl mb-2 text-primary-extraLight">
         past work / achievements
       </h2>
       <div className="pl-2">

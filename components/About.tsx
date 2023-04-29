@@ -4,7 +4,7 @@ import { Link } from "./Link";
 export const About = () => {
   return (
     <section className="rounded-lg mt-12" id="about">
-      <h2 className="text-2xl font-bold mb-2 text-primary-extraLight">about</h2>
+      <h2 className="text-2xl mb-2 text-primary-extraLight">about</h2>
       <p className="mb-5">
         I'm Gautam, a high school student, passionate about startups, software,
         and open source.
