@@ -5,9 +5,7 @@ import { Link } from "./Link";
 export const CurrentWork: FC = () => {
   return (
     <section className="rounded-lg mt-12">
-      <h2 className="text-2xl mb-2 text-primary-extraLight">
-        currently, i'm
-      </h2>
+      <h2 className="text-2xl mb-2 text-primary-extraLight">currently, i'm</h2>
       <div className="pl-3">
         <li className={`${constants.verticalSpacing}`}>
           Working as a product engineer at{" "}
