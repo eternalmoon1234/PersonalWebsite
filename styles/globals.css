@@ -6,19 +6,19 @@
 /* Import Beatrice font */
 @font-face {
   font-family: "beatrice";
-  src: url("../public/fonts/Beatrice-Regular.otf") format("otf");
+  src: url("../public/fonts/Beatrice-Regular.otf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-light";
-  src: url("../public/fonts/Beatrice-Light.otf") format("otf");
+  src: url("../public/fonts/Beatrice-Light.otf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-medium";
-  src: url("../public/fonts/Beatrice-Medium.otf") format("otf");
+  src: url("../public/fonts/Beatrice-Medium.otf") format("truetype");
   font-display: swap;
 }
 

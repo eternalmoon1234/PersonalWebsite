@@ -32,7 +32,11 @@ export const ProjectCard: FC<ProjectCardProps> = ({
         ""
       )}
 
-      <div className={`px-5 pb-5 space-y-4 pt-5 ${!imageUrl || imageUrl ? "pt-5" : "pt-0"}`}>
+      <div
+        className={`px-5 pb-5 space-y-4 pt-5 ${
+          !imageUrl || imageUrl ? "pt-5" : "pt-0"
+        }`}
+      >
         <div className="flex justify-start items-center space-x-2">
           <h5 className="text-xl font-beatriceMedium text-white">{title}</h5>
           {viewLink != undefined ? (
