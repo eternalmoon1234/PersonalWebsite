@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" /> 
         <meta
           name="description"
           content="Team FRC 6070 from Glenforest Secondary School"
