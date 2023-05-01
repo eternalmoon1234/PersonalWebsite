@@ -24,13 +24,13 @@
 
 @font-face {
   font-family: "beatrice-semibold";
-  src: url("../public/fonts/Beatrice-Semibold.otf") format("otf");
+  src: url("../public/fonts/Beatrice-Semibold.otf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-bold";
-  src: url("../public/fonts/Beatrice-Bold.otf") format("otf");
+  src: url("../public/fonts/Beatrice-Bold.otf") format("truetype");
   font-display: swap;
 }
 
