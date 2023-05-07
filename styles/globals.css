@@ -6,31 +6,31 @@
 /* Import Beatrice font */
 @font-face {
   font-family: "beatrice";
-  src: url("../public/fonts/Beatrice-Regular.otf") format("truetype");
+  src: url("https://github.com/eternalmoon1234/www/raw/main/public/fonts/Beatrice-Regular.otf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-light";
-  src: url("../public/fonts/Beatrice-Light.otf") format("truetype");
+  src: url("https://github.com/eternalmoon1234/www/raw/main/public/fonts/Beatrice-Light.otf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-medium";
-  src: url("../public/fonts/Beatrice-Medium.otf") format("truetype");
+  src: url("https://github.com/eternalmoon1234/www/raw/main/public/fonts/Beatrice-Medium.otf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-semibold";
-  src: url("../public/fonts/Beatrice-Semibold.otf") format("truetype");
+  src: url("https://github.com/eternalmoon1234/www/raw/main/public/fonts/Beatrice-Semibold.otf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "beatrice-bold";
-  src: url("../public/fonts/Beatrice-Bold.otf") format("truetype");
+  src: url("https://github.com/eternalmoon1234/www/raw/main/public/fonts/Beatrice-Bold.otf") format("truetype");
   font-display: swap;
 }
 
