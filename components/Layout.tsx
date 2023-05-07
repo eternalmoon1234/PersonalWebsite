@@ -14,7 +14,10 @@ export const Layout = ({
     <div>
       <Head>
         <title>{title}</title>
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        />
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" type="image/png" href="/images/favicon.png"></link>

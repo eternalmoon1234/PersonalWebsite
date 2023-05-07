@@ -62,7 +62,7 @@ export const experiences: ExperienceEntity[] = [
     organization: "Foyer",
     organizationUrl: constants.companies.foyer,
     description:
-      "Contributed to Merlin, an AI-powered virtual assistant for the web, by developing and enhancing a range of features.",
+      "Working on Merlin, an AI-powered virtual assistant for the web.",
     skills: "Firebase · React.js · Plasmo · APIs",
     dateRange: "Jan 2023 - Present",
   },
@@ -79,11 +79,11 @@ export const experiences: ExperienceEntity[] = [
   },
   {
     title: "Software Engineer",
-    organizationColor: "gray-200",
+    organizationColor: "gray-300",
     organization: "neusleep",
     organizationUrl: constants.companies.neusleep,
     description:
-      "Developed a custom developer dashboard for clinical studies with the neusleep hardware device, with features such as high volume data processing, data graphing and session association.",
+      "Developed a custom developer dashboard for analyzing data from clinical studies with neusleep's wearable device. Built features to support high-volume data processing, data graphing and session association.",
     skills: "Big Data • Data Analysis • Firebase • Next.js • TypeScript",
     dateRange: "Jun 2022 - Oct 2022",
   },

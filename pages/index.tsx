@@ -14,7 +14,7 @@ import { experiences, projects } from "@/data/data";
 const IndexPage: NextPage = () => (
   <Layout>
     <FadeIn delay={140}>
-      <Navbar />
+      <Navbar scrollLinks={true} />
     </FadeIn>
 
     <div className="mx-auto flex w-full max-w-[45rem] flex-col justify-center py-16">

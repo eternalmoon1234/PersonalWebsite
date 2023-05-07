@@ -1,6 +1,6 @@
 export interface ExperienceEntity {
   title: string;
-  organizationColor: "foyerPurple" | "tripleyBlue" | "gray-200";
+  organizationColor: "foyerPurple" | "tripleyBlue" | "gray-300";
   organization: string;
   organizationUrl: string;
   description: string;
