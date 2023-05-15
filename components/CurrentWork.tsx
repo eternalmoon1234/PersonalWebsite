@@ -31,14 +31,6 @@ export const CurrentWork: FC = () => {
         </li>
 
         <li className={`${constants.verticalSpacing}`}>
-          Creating practical, useful, and informative videos about tech on my{" "}
-          <Link
-            type="basic"
-            href={constants.contacts.youtube}
-            displayName="YouTube channel"
-          />
-        </li>
-        <li className={`${constants.verticalSpacing}`}>
           Software sub-team member in{" "}
           <Link
             type="basic"
@@ -52,6 +44,15 @@ export const CurrentWork: FC = () => {
             displayName="Team 5940"
           />
           .
+        </li>
+
+        <li className={`${constants.verticalSpacing}`}>
+          Creating practical, useful, and informative videos about tech on my{" "}
+          <Link
+            type="basic"
+            href={constants.contacts.youtube}
+            displayName="YouTube channel"
+          />
         </li>
       </div>
     </section>

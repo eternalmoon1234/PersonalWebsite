@@ -10,15 +10,6 @@ export const PastWork: FC = () => {
       </h2>
       <div className="pl-2">
         <li className={`${constants.verticalSpacing}`}>
-          Over 115 subscribers and 5K views on my{" "}
-          <Link
-            type="basic"
-            href={constants.contacts.youtube}
-            displayName="YouTube channel"
-          />
-        </li>
-
-        <li className={`${constants.verticalSpacing}`}>
           Certified{" "}
           <Link
             type="basic"
@@ -74,6 +65,14 @@ export const PastWork: FC = () => {
           />
           , a web app that enables users to chat with people in their city
           through doodles and drawings.
+        </li>
+        <li className={`${constants.verticalSpacing}`}>
+          Over 115 subscribers and 5K views on my{" "}
+          <Link
+            type="basic"
+            href={constants.contacts.youtube}
+            displayName="YouTube channel"
+          />
         </li>
       </div>
     </section>
