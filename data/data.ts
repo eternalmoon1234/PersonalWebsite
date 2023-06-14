@@ -66,6 +66,16 @@ export const projects: ProjectEntity[] = [
 
 export const experiences: ExperienceEntity[] = [
   {
+    title: "Software Engineer",
+    organizationColor: "foyerPurple",
+    organization: "Light AI",
+    organizationUrl: constants.companies.foyer,
+    description:
+      "Working on Merlin, an AI-powered virtual assistant for the web.",
+    skills: "Firebase · React.js · Plasmo · APIs",
+    dateRange: "Jan 2023 - Present",
+  },
+  {
     title: "Product Engineer",
     organizationColor: "foyerPurple",
     organization: "Foyer",
