@@ -21,11 +21,13 @@ export const projects: ProjectEntity[] = [
   },
   {
     title: "Scout Machine",
-    description: "Scout Machine is the all-in-one platform for FRC (FIRST Robotics Competition) data insights.\n Features include match data, statistics, upcoming events, and even a marketplace for FRC related goods.",
-    skills: "Data Analysis · Statistics · Next.js · PostgreSQL · Prisma · TypeScript",
-        viewLink: "https://machine.frc6070.ca/",
+    description:
+      "Scout Machine is the all-in-one platform for FRC (FIRST Robotics Competition) data insights.\n Features include match data, statistics, upcoming events, and even a marketplace for FRC related goods.",
+    skills:
+      "Data Analysis · Statistics · Next.js · PostgreSQL · Prisma · TypeScript",
+    viewLink: "https://machine.frc6070.ca/",
     githubLink: "https://github.com/gryphonmachine/machine",
-    imageUrl: "https://i.imgur.com/HyqCjI8.png"
+    imageUrl: "https://i.imgur.com/HyqCjI8.png",
   },
   {
     title: "Pindrop",
@@ -56,8 +58,7 @@ export const projects: ProjectEntity[] = [
     title: "ArtMart",
     description:
       "ArtMart is a web app that brings together a diverse community of passionate art enthusiasts and enables them to share and trade their collected pieces.",
-    skills:
-      "Next.js · CockroachDB · Prisma · TypeScript",
+    skills: "Next.js · CockroachDB · Prisma · TypeScript",
     viewLink: "https://artmart.vercel.app/",
     githubLink: "https://github.com/ShubhamPatilsd/artmart",
     imageUrl: "https://i.imgur.com/mQPgEwc.png",
@@ -65,16 +66,6 @@ export const projects: ProjectEntity[] = [
 ];
 
 export const experiences: ExperienceEntity[] = [
-  {
-    title: "Software Engineer",
-    organizationColor: "foyerPurple",
-    organization: "Light AI",
-    organizationUrl: constants.companies.foyer,
-    description:
-      "Working on Merlin, an AI-powered virtual assistant for the web.",
-    skills: "Firebase · React.js · Plasmo · APIs",
-    dateRange: "Jan 2023 - Present",
-  },
   {
     title: "Product Engineer",
     organizationColor: "foyerPurple",
